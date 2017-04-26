@@ -1,0 +1,17 @@
+{
+  "vertx.instance.number" : 1,
+  "http.port" : 18090,
+  "http.use.ssl" : true,	
+	  
+  "heartbeatInterval" : 25000,
+  "insertJSESSIONID" : true,
+  "maxBytesStreaming" : 131072,
+  "sessionTimeout" : 5000, 
+  
+  "cors.access_control_allow_methods" : "POST, GET",
+  "cors.access_control_max_age" : "3600",
+  "cors.access_control_allow_headers" : "x-requested-with",
+  "cors.access_control_allow_origin" : "*",
+  
+  "user.list.address" : "conneted.users"
+}

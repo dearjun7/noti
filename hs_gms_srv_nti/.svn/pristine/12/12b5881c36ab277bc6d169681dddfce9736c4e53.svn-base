@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.hs.gms</groupId>
+	<artifactId>hs_gms_srv_nti</artifactId>
+	<packaging>jar</packaging>
+	<version>1.0.0-RELEASE</version>
+	<url>http://www.handysoft.co.kr</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+		<!-- Set pullInDeps to true if you want any modules specified in the 'includes' 
+			and 'deploys' fields in your mod.json to be automatically pulled in during 
+			packaging and added inside your module. Doing this means your module won't 
+			download and install those dependencies at run-time when they're first requested. -->
+		<vertx.pullInDeps>false</vertx.pullInDeps>
+
+		<!-- Set createFatJar to true if you want to create a fat executable jar 
+			which contains the Vert.x binaries along with the module so it can be run 
+			with java -jar <jarname> -->
+		<vertx.createFatJar>false</vertx.createFatJar>
+
+		<!--Vertx module name -->
+		<module.name>${project.artifactId}_${project.version}</module.name>
+
+		<vertx.version>3.2.0</vertx.version>
+		<vertx.testtools.version>2.0.3-final</vertx.testtools.version>
+		<junit.version>4.11</junit.version>
+
+		<!--Plugin versions -->
+		<maven.compiler.plugin.version>3.0</maven.compiler.plugin.version>
+		<maven.resources.plugin.version>2.6</maven.resources.plugin.version>
+		<maven.clean.plugin.version>2.5</maven.clean.plugin.version>
+		<maven.vertx.plugin.version>2.0.11-final</maven.vertx.plugin.version>
+		<maven.surefire.plugin.version>2.14</maven.surefire.plugin.version>
+		<maven.failsafe.plugin.version>2.14</maven.failsafe.plugin.version>
+		<maven.surefire.report.plugin.version>2.14</maven.surefire.report.plugin.version>
+		<maven.javadoc.plugin.version>2.9</maven.javadoc.plugin.version>
+		<maven.dependency.plugin.version>2.7</maven.dependency.plugin.version>
+
+	</properties>
+	
+	<profiles>
+		<profile>
+			<id>dev_cluster</id>
+			<properties>
+				<mainClass>com.hs.gms.srv.nti.NotificatorWithClusterModeStarter</mainClass>
+				<environment>dev</environment>
+			</properties>
+		</profile>
+		
+		<profile>
+			<id>stg_cluster</id>
+			<properties>
+				<mainClass>com.hs.gms.srv.nti.NotificatorWithClusterModeStarter</mainClass>
+				<environment>stg</environment>
+			</properties>
+		</profile>
+		
+		<profile>
+			<id>prd_cluster</id>
+			<properties>
+				<mainClass>com.hs.gms.srv.nti.NotificatorWithClusterModeStarter</mainClass>
+				<environment>prd</environment>
+			</properties>
+		</profile>
+		
+		<profile>
+			<id>dev_single</id>
+			<properties>
+				<mainClass>com.hs.gms.srv.nti.NotificatorNonClusterModeStarter</mainClass>
+				<environment>dev</environment>
+			</properties>
+		</profile>
+		
+		<profile>
+			<id>stg_single</id>
+			<properties>
+				<mainClass>com.hs.gms.srv.nti.NotificatorNonClusterModeStarter</mainClass>
+				<environment>stg</environment>
+			</properties>
+		</profile>
+		
+		<profile>
+			<id>prd_single</id>
+			<properties>
+				<mainClass>com.hs.gms.srv.nti.NotificatorNonClusterModeStarter</mainClass>
+				<environment>prd</environment>
+			</properties>
+		</profile>
+	</profiles>
+	
+	<dependencies>
+		<!--Vertx provided dependencies -->
+		<dependency>
+			<groupId>io.vertx</groupId>
+			<artifactId>vertx-core</artifactId>
+			<version>${vertx.version}</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.vertx</groupId>
+			<artifactId>vertx-web</artifactId>
+			<version>${vertx.version}</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.vertx</groupId>
+			<artifactId>vertx-hazelcast</artifactId>
+			<version>${vertx.version}</version>
+			<scope>compile</scope>
+		</dependency>
+		<!--Test dependencies -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.vertx</groupId>
+			<artifactId>testtools</artifactId>
+			<version>${vertx.testtools.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<!-- Add any other dependencies that you want packaged into your module 
+			(in the lib dir) here as 'compile' dependencies. Here is an example <dependency> 
+			<groupId>org.hamcrest</groupId>
+			<artifactId>hamcrest-core</artifactId>
+			<version>1.3</version> 
+			<scope>compile</scope> </dependency> -->
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<version>1.1.3</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<finalName>notificator</finalName>
+		
+		<resources>
+			<resource>
+	            <directory>src/main/resources-${environment}</directory>
+	            <includes>
+	                <include>cluster</include>
+	            </includes>
+            </resource>
+		</resources>
+			
+		<pluginManagement>
+			<plugins>
+				<!-- We specify the Maven compiler plugin as we need to set it to Java 1.8 -->
+				<plugin>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>3.1</version>
+					<configuration>
+						<source>1.8</source>
+						<target>1.8</target>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+
+		<!-- You only need the part below if you want to build your application 
+			into a fat executable jar. This is a jar that contains all the dependencies 
+			required to run it, so you can just run it with java -jar -->
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-shade-plugin</artifactId>
+				<version>2.3</version>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals>
+							<goal>shade</goal>
+						</goals>
+						<configuration>
+							<transformers>
+								<transformer
+									implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+									<manifestEntries>
+										<Main-Class>${mainClass}</Main-Class>
+									</manifestEntries>
+								</transformer>
+								<transformer
+									implementation="org.apache.maven.plugins.shade.resource.AppendingTransformer">
+									<resource>META-INF/services/io.vertx.core.spi.VerticleFactory</resource>
+								</transformer>
+							</transformers>
+							<!-- filters>
+								<filter>
+									<artifact>${project.groupId}:${project.artifactId}</artifact>
+									<excludes>
+										<exclude>conf/**</exclude>
+									</excludes>
+								</filter>
+							</filters-->
+							<artifactSet>
+							</artifactSet>
+							<outputFile>${project.build.directory}/${project.artifactId}-fat.jar</outputFile>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<version>2.5.5</version>
+				<configuration>
+					<descriptors>
+						<descriptor>packaging.xml</descriptor>
+					</descriptors>
+				</configuration>
+				<executions>
+					<execution>
+						<id>make-assembly</id> 
+						<phase>package</phase> 
+						<goals>
+							<goal>single</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+	
+	<repositories>
+		<repository>
+			<id>anonymous</id>
+			<url>http://123.212.190.183:8081/nexus/content/groups/public</url>
+			<snapshots>
+				<updatePolicy>always</updatePolicy>
+			</snapshots>
+		</repository>
+	</repositories>
+</project>

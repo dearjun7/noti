@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<!--[if lte IE 9]>
+	<script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/jquery-ajaxtransport-xdomainrequest/1.0.3/jquery.xdomainrequest.min.js'></script>
+	<![endif]-->
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/sockjs-client/0.3.4/sockjs.min.js"></script>
+	<script src="./vertx-eventbus.js"></script>
+	<script>
+			var SOCKJS_URL = "https://www.handygms.co.kr/noti";"
+        	var eventBus = null;
+	        	
+        	$(document).ready(function() {
+        		$(function(){
+	                // when the client clicks SEND
+	                $('#datasend').click( function() {
+	                        var id = $('#id').val();
+	                        var data = $('#data').val();
+	                        $.ajax({
+	                                type: "POST",
+	                                url: SOCKJS_URL+"/webNotification",
+	                                data: "id=" + id + "&data=" + data,
+	                                success: function(msg) {
+	                                        console.log(msg);
+	                                }
+	                        });
+	                });
+	
+	                // when the client hits ENTER on their keyboard
+	                $('#data').keypress(function(e) {
+	                        if(e.which == 13) {
+	                                $(this).blur();
+	                                $('#datasend').focus().click();
+	                        }
+	                });
+	        	});
+        		
+    	    	console.log("initSockJS : " + SOCKJS_URL);
+    	    	eventBus =  new vertx.EventBus(SOCKJS_URL);
+    			
+    	    	eventBus.onopen = function() {
+    	    		eventBus.registerHandler("conneted.users", function (msg) {
+    	    			var users = msg.users;
+	                	console.log('receive the connected user list : ' + users);
+	                	
+	                	var userNameHtml = "";
+	                	for(i = 0; i < users.length; i++ ){
+	                		userNameHtml = userNameHtml + users[i] + ";<br/>";
+	                	}
+	                	
+	                	$('#users').html(userNameHtml);
+    		     	});
+    			    
+    			    console.log('Connected VertX-SockJSs Server. : ' + SOCKJS_URL);
+    			    
+   			    	$.ajax({
+   		                type: "GET",
+   		                url: SOCKJS_URL+"/getConnectedUserList",
+   		                data: "",
+   		                success: function(msg) {
+   		                	var users = msg.users;
+   		                	console.log('receive the connected user list : ' + users);
+   		                	
+   		                	var userNameHtml = "";
+   		                	for(i = 0; i < users.length; i++ ){
+   		                		userNameHtml = userNameHtml + users[i] + ";<br/>";
+   		                	}
+   		                	
+   		                	$('#users').html(userNameHtml);
+   		                }
+   		      		});
+    			};
+        	});
+	</script>
+</head>
+
+<body>
+	<div style="float:left;width:200px;border-right:1px solid black;height:300px;padding:10px;overflow:scroll-y;">
+	        <b>Connected User List</b>
+	        <div id="users"></div>
+	</div>
+	<div style="float:left;width:300px;height:250px;overflow:scroll-y;padding:10px;">
+	        <div style="float:left:width:100px;overflow;">id:</div><input id="id" style="width:200px;" />
+	        <div style="float:left:width:100px;overflow;">data:</div><input id="data" style="width:200px;" />
+	        <input type="button" id="datasend" value="send" />
+	</div>
+</body>
+</html>

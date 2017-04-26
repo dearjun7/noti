@@ -1,0 +1,43 @@
+package com.hs.gms.srv.nti;
+
+import java.io.File;
+import java.io.IOException;
+
+/**
+ * Vert.x로 구현된 notification 서버 구동 Class - Cluster Mode
+ * 
+ * @author BH Jun
+ */
+public class NotificatorWithClusterModeStarter {
+
+    private static final String DEFAULT_NOTI_CONF = "conf/config.json";
+    private static final String NOTI_CONF = "./conf/config.json";
+    private static final String LOCAL_NOTI_CONF = "src/main/resources/conf/config.json";
+
+    /**
+     * 서버 구동 메인 method
+     * 
+     * @param args
+     * @throws IOException
+     */
+    @SuppressWarnings("deprecation")
+    public static void main(String[] args) throws IOException {
+        String conf = null;
+
+        File confFile = new File(NOTI_CONF);
+
+        if(confFile.exists()) {
+            conf = NOTI_CONF;
+        } else {
+            confFile = new File(DEFAULT_NOTI_CONF);
+
+            if(confFile.exists()) {
+                conf = DEFAULT_NOTI_CONF;
+            } else {
+                conf = LOCAL_NOTI_CONF;
+            }
+        }
+
+        io.vertx.core.Starter.main(new String[]{"run", "com.hs.gms.srv.nti.verticle.MainVerticle", "-conf", conf, "-cluster"});
+    }
+}

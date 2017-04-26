@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hazelcast xsi:schemaLocation="http://www.hazelcast.com/schema/config hazelcast-config-3.2.xsd"
+           xmlns="http://www.hazelcast.com/schema/config"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  
+  <!-- 
+  HazelCast 기본 설정 
+  	   hazelcast.wait.seconds.before.join : clustering을 시도하기 전, server 간 sync를 위한 대기 시간을 입력(초 단위)
+  	   hazelcast.logging.type : 로깅 타입 설정 변경 X
+   -->         
+  <properties>
+    <property name="hazelcast.wait.seconds.before.join">0</property>
+    <property name="hazelcast.logging.type">jdk</property>
+  </properties>
+  
+  <!--
+  HazelCast 통신을 위한 cluster group 명 및 password 지정	
+  -->
+  <group>
+    <name>noti</name>
+    <password>notificator-pass-handysoft</password>
+  </group>
+  
+  <!-- 
+  HazelCast Clustering network 모드 설정 : web notificatior는 tcp-ip 모드의 clustering을 사용
+   -->
+  <network>
+  	<!-- hazelcast clustering node의 시작 포트를 지정한다. port-count : 추가 포트 범위  -->
+    <port auto-increment="true" port-count="1000">5701</port>
+    <outbound-ports>
+    <!-- 다른 node로 접속하기 위한 포트 범위  system에서  제공하는 포트를 사용하기 위해 0 또는 *로 작성(변경x)-->
+      <ports>0</ports>
+    </outbound-ports>
+    <join>
+      <multicast enabled="false">
+      </multicast>
+    <!-- 
+    tcp-ip clustering mode 설정
+    	<member> 앨리먼트에 연결할 node의 ip 정보를 입력한다.
+                   다수의 node 연결 시에는 <member> 앨리먼트를 추가하여 기술한다.
+        
+        ex> <tcp-ip enabled="true">
+        		<interface>127.0.0.1</interface>
+        		<interface>192.168.0.245</interface>
+        	</tcp-ip>
+     -->
+      <tcp-ip enabled="true">
+         <interface>10.30.4.184</interface>
+         <interface>123.212.190.183</interface>
+      </tcp-ip>
+    </join>
+  </network>
+  
+  <!-- 
+  HazelCast의 shared momory alias name 설정.
+    아래 설정 값을 변경하지  않고 사용.
+   -->	  
+  <map name="__vertx.subs">
+    <backup-count>1</backup-count>
+    <time-to-live-seconds>0</time-to-live-seconds>
+    <max-idle-seconds>0</max-idle-seconds>
+    <eviction-policy>NONE</eviction-policy>
+    <max-size policy="PER_NODE">0</max-size>
+    <eviction-percentage>25</eviction-percentage>
+    <merge-policy>com.hazelcast.map.merge.LatestUpdateMapMergePolicy</merge-policy>
+  </map>
+  <semaphore name="__vertx.*">
+    <initial-permits>1</initial-permits>
+  </semaphore>
+
+</hazelcast>

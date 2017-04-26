@@ -1,0 +1,21 @@
+[2016-03-22 19:59:12.619][INFO ]io.vertx.core.Starter - Starting clustering...
+[2016-03-22 19:59:12.676][INFO ]io.vertx.core.Starter - No cluster-host specified so using address 127.0.0.1
+[2016-03-22 19:59:12.783][INFO ]io.netty.util.internal.PlatformDependent - Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[2016-03-22 19:59:17.709][INFO ]io.vertx.core.Starter - Succeeded in deploying verticle
+[2016-03-22 19:59:17.770][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle - ========= HTTP Server Starting =========
+[2016-03-22 19:59:17.770][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle -  heartbeatInterval : 25000
+[2016-03-22 19:59:17.770][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle -  insertJSESSIONID : true
+[2016-03-22 19:59:17.770][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle -  maxBytesStreaming : 131072
+[2016-03-22 19:59:17.773][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle -  sessionTimeout : 5000
+[2016-03-22 19:59:17.793][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle - ========= Notification Server is Started!!!! =========
+[2016-03-22 19:59:17.793][INFO ]com.hs.common.notificator.verticle.MainVerticle - HttpServerVerticle Deployment id is: 2b1a3fd0-1f87-4131-996c-9be4945cdb6f
+[2016-03-22 20:00:06.719][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:58679|New Socket CONNECTED.
+[2016-03-22 20:00:06.727][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:58679|user(myid) JOIN.
+[2016-03-22 20:00:09.961][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:58679|user(myid) PUBLISHED message(asdasd).
+[2016-03-22 20:00:09.980][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:58679|user(myid) RECEIVED message(asdasd).
+[2016-03-22 20:15:28.889][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:58679|user(myid) PUBLISHED message(hhhh).
+[2016-03-22 20:15:28.893][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:58679|user(myid) RECEIVED message(hhhh).
+[2016-03-22 20:18:39.015][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:58679|user(myid) PUBLISHED message(asdsad).
+[2016-03-22 20:18:39.016][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:58679|user(myid) RECEIVED message(asdsad).
+[2016-03-22 20:18:43.108][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:58679|user(myid) LEAVE.
+[2016-03-22 20:18:43.109][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:58679|Socket CLOSED.

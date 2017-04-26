@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assembly xmlns="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.3"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.3 http://maven.apache.org/xsd/assembly-1.1.3.xsd">
+	<id>package</id>
+	<formats>
+		<format>tar</format>
+	</formats>
+	<includeBaseDirectory>false</includeBaseDirectory>
+	<fileSets>
+		<fileSet>
+      		<directory>${basedir}/target</directory>
+      		<outputDirectory>/</outputDirectory>
+      		<includes>
+      			<include>**/*-fat.jar</include>
+      		</includes>
+    	</fileSet>
+		
+		<fileSet>
+    		<directory>${basedir}</directory>
+      		<outputDirectory>logs</outputDirectory>
+      		<excludes>
+      			<exclude>**/*</exclude>
+      		</excludes>
+    	</fileSet>
+    	
+		<fileSet>
+      		<directory>${basedir}/bin</directory>
+      		<outputDirectory>/</outputDirectory>
+      		<includes>
+      			<include>notificator.sh</include>
+      		</includes>
+      		<fileMode>755</fileMode>
+    	</fileSet>
+    	
+		<fileSet>
+    		<directory>${basedir}/src/main/resources-${environment}/conf</directory>
+      		<outputDirectory>conf</outputDirectory>
+      		<excludes>
+      			<exclude>cluster.xml</exclude>
+      		</excludes>
+      		<includes>
+      			<include>**/*.*</include>
+      		</includes>
+    	</fileSet>
+    	
+    	<fileSet>
+    		<directory>${basedir}/WEB-INF-${environment}</directory>
+      		<outputDirectory>WEB-INF</outputDirectory>
+      		<includes>
+      			<include>**/*.*</include>
+      		</includes>
+    	</fileSet>
+	</fileSets>
+</assembly>

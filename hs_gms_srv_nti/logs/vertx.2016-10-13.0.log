@@ -1,0 +1,228 @@
+[2016-10-12 16:51:54.660][INFO ]com.hs.gms.srv.nti.NotificatorWithClusterModeStarter - LOAD CONFIG FILE - src/main/resources/conf/config.json
+[2016-10-12 16:51:54.722][INFO ]io.vertx.core.Starter - Starting clustering...
+[2016-10-12 16:51:54.770][INFO ]io.vertx.core.Starter - No cluster-host specified so using address 127.0.0.1
+[2016-10-12 16:51:58.850][INFO ]io.vertx.core.Starter - Succeeded in deploying verticle
+[2016-10-12 16:51:58.887][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= HTTP Server Starting =========
+[2016-10-12 16:51:58.888][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  heartbeatInterval : 25000
+[2016-10-12 16:51:58.888][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  insertJSESSIONID : true
+[2016-10-12 16:51:58.888][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  maxBytesStreaming : 131072
+[2016-10-12 16:51:58.892][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  sessionTimeout : 5000
+[2016-10-12 16:51:58.930][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= Notification Server is Started!!!! =========
+[2016-10-12 16:51:58.930][ERROR]io.vertx.core.http.impl.HttpServerImpl - java.net.BindException: Address already in use: bind
+[2016-10-12 16:51:58.931][INFO ]com.hs.gms.srv.nti.verticle.MainVerticle - HttpServerVerticle Deployment id is: 980e03f1-180c-4d4b-bf6c-c4f240a71529
+[2016-10-12 16:53:06.533][INFO ]com.hs.gms.srv.nti.NotificatorWithClusterModeStarter - LOAD CONFIG FILE - src/main/resources/conf/config.json
+[2016-10-12 16:53:06.564][INFO ]io.vertx.core.Starter - Starting clustering...
+[2016-10-12 16:53:06.606][INFO ]io.vertx.core.Starter - No cluster-host specified so using address 127.0.0.1
+[2016-10-12 16:53:08.264][INFO ]io.vertx.core.Starter - Succeeded in deploying verticle
+[2016-10-12 16:53:08.282][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= HTTP Server Starting =========
+[2016-10-12 16:53:08.282][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  heartbeatInterval : 25000
+[2016-10-12 16:53:08.282][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  insertJSESSIONID : true
+[2016-10-12 16:53:08.286][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  maxBytesStreaming : 131072
+[2016-10-12 16:53:08.286][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  sessionTimeout : 5000
+[2016-10-12 16:53:08.314][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= Notification Server is Started!!!! =========
+[2016-10-12 16:53:08.315][ERROR]io.vertx.core.http.impl.HttpServerImpl - java.net.BindException: Address already in use: bind
+[2016-10-12 16:53:08.315][INFO ]com.hs.gms.srv.nti.verticle.MainVerticle - HttpServerVerticle Deployment id is: 5c3f23c9-a62c-49f6-b276-3f28c3920111
+[2016-10-12 16:54:13.367][INFO ]com.hs.gms.srv.nti.NotificatorWithClusterModeStarter - LOAD CONFIG FILE - src/main/resources/conf/config.json
+[2016-10-12 16:54:13.399][INFO ]io.vertx.core.Starter - Starting clustering...
+[2016-10-12 16:54:13.443][INFO ]io.vertx.core.Starter - No cluster-host specified so using address 127.0.0.1
+[2016-10-12 16:54:17.016][INFO ]io.vertx.core.Starter - Succeeded in deploying verticle
+[2016-10-12 16:54:17.033][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= HTTP Server Starting =========
+[2016-10-12 16:54:17.034][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  heartbeatInterval : 25000
+[2016-10-12 16:54:17.034][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  insertJSESSIONID : true
+[2016-10-12 16:54:17.038][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  maxBytesStreaming : 131072
+[2016-10-12 16:54:17.038][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  sessionTimeout : 5000
+[2016-10-12 16:54:17.068][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= Notification Server is Started!!!! =========
+[2016-10-12 16:54:17.068][ERROR]io.vertx.core.http.impl.HttpServerImpl - java.net.BindException: Address already in use: bind
+[2016-10-12 16:54:17.068][INFO ]com.hs.gms.srv.nti.verticle.MainVerticle - HttpServerVerticle Deployment id is: dc218d06-29e4-44fd-a4ec-bfc16d3d09f8
+[2016-10-12 16:55:00.013][INFO ]com.hs.gms.srv.nti.NotificatorWithClusterModeStarter - LOAD CONFIG FILE - src/main/resources/conf/config.json
+[2016-10-12 16:55:00.048][INFO ]io.vertx.core.Starter - Starting clustering...
+[2016-10-12 16:55:00.089][INFO ]io.vertx.core.Starter - No cluster-host specified so using address 127.0.0.1
+[2016-10-12 16:55:03.664][INFO ]io.vertx.core.Starter - Succeeded in deploying verticle
+[2016-10-12 16:55:03.681][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= HTTP Server Starting =========
+[2016-10-12 16:55:03.681][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  heartbeatInterval : 25000
+[2016-10-12 16:55:03.681][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  insertJSESSIONID : true
+[2016-10-12 16:55:03.685][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  maxBytesStreaming : 131072
+[2016-10-12 16:55:03.685][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  sessionTimeout : 5000
+[2016-10-12 16:55:03.713][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= Notification Server is Started!!!! =========
+[2016-10-12 16:55:03.713][ERROR]io.vertx.core.http.impl.HttpServerImpl - java.net.BindException: Address already in use: bind
+[2016-10-12 16:55:03.713][INFO ]com.hs.gms.srv.nti.verticle.MainVerticle - HttpServerVerticle Deployment id is: ef9f2ff1-afaf-498e-a74e-89990b0994ef
+[2016-10-12 16:55:22.473][INFO ]com.hs.gms.srv.nti.NotificatorWithClusterModeStarter - LOAD CONFIG FILE - src/main/resources/conf/config.json
+[2016-10-12 16:55:22.505][INFO ]io.vertx.core.Starter - Starting clustering...
+[2016-10-12 16:55:22.549][INFO ]io.vertx.core.Starter - No cluster-host specified so using address 127.0.0.1
+[2016-10-12 16:55:26.112][INFO ]io.vertx.core.Starter - Succeeded in deploying verticle
+[2016-10-12 16:55:26.128][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= HTTP Server Starting =========
+[2016-10-12 16:55:26.128][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  heartbeatInterval : 25000
+[2016-10-12 16:55:26.128][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  insertJSESSIONID : true
+[2016-10-12 16:55:26.133][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  maxBytesStreaming : 131072
+[2016-10-12 16:55:26.133][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  sessionTimeout : 5000
+[2016-10-12 16:55:26.161][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= Notification Server is Started!!!! =========
+[2016-10-12 16:55:26.161][ERROR]io.vertx.core.http.impl.HttpServerImpl - java.net.BindException: Address already in use: bind
+[2016-10-12 16:55:26.162][INFO ]com.hs.gms.srv.nti.verticle.MainVerticle - HttpServerVerticle Deployment id is: 57bea277-9a81-409c-8daf-00d31efe3dad
+[2016-10-12 16:55:53.302][INFO ]com.hs.gms.srv.nti.NotificatorWithClusterModeStarter - LOAD CONFIG FILE - src/main/resources/conf/config.json
+[2016-10-12 16:55:53.333][INFO ]io.vertx.core.Starter - Starting clustering...
+[2016-10-12 16:55:53.375][INFO ]io.vertx.core.Starter - No cluster-host specified so using address 127.0.0.1
+[2016-10-12 16:55:56.956][INFO ]io.vertx.core.Starter - Succeeded in deploying verticle
+[2016-10-12 16:55:56.972][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= HTTP Server Starting =========
+[2016-10-12 16:55:56.973][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  heartbeatInterval : 25000
+[2016-10-12 16:55:56.973][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  insertJSESSIONID : true
+[2016-10-12 16:55:56.978][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  maxBytesStreaming : 131072
+[2016-10-12 16:55:56.978][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  sessionTimeout : 5000
+[2016-10-12 16:55:57.010][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= Notification Server is Started!!!! =========
+[2016-10-12 16:55:57.010][ERROR]io.vertx.core.http.impl.HttpServerImpl - java.net.BindException: Address already in use: bind
+[2016-10-12 16:55:57.010][INFO ]com.hs.gms.srv.nti.verticle.MainVerticle - HttpServerVerticle Deployment id is: de180bb3-489f-4dcf-adf6-831a975d2c05
+[2016-10-12 16:57:23.722][INFO ]com.hs.gms.srv.nti.NotificatorWithClusterModeStarter - LOAD CONFIG FILE - src/main/resources/conf/config.json
+[2016-10-12 16:57:23.761][INFO ]io.vertx.core.Starter - Starting clustering...
+[2016-10-12 16:57:23.809][INFO ]io.vertx.core.Starter - No cluster-host specified so using address 127.0.0.1
+[2016-10-12 16:57:25.329][INFO ]io.vertx.core.Starter - Succeeded in deploying verticle
+[2016-10-12 16:57:25.347][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= HTTP Server Starting =========
+[2016-10-12 16:57:25.348][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  heartbeatInterval : 25000
+[2016-10-12 16:57:25.348][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  insertJSESSIONID : true
+[2016-10-12 16:57:25.351][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  maxBytesStreaming : 131072
+[2016-10-12 16:57:25.351][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  sessionTimeout : 5000
+[2016-10-12 16:57:25.376][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= Notification Server is Started!!!! =========
+[2016-10-12 16:57:25.376][INFO ]com.hs.gms.srv.nti.verticle.MainVerticle - HttpServerVerticle Deployment id is: 2982c1df-1c5a-4da2-b730-01ffa690288b
+[2016-10-12 17:28:29.440][INFO ]com.hs.gms.srv.nti.NotificatorWithClusterModeStarter - LOAD CONFIG FILE - src/main/resources/conf/config.json
+[2016-10-12 17:28:29.475][INFO ]io.vertx.core.Starter - Starting clustering...
+[2016-10-12 17:28:29.524][INFO ]io.vertx.core.Starter - No cluster-host specified so using address 127.0.0.1
+[2016-10-12 17:28:36.050][INFO ]io.vertx.core.Starter - Succeeded in deploying verticle
+[2016-10-12 17:28:36.068][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= HTTP Server Starting =========
+[2016-10-12 17:28:36.068][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  heartbeatInterval : 25000
+[2016-10-12 17:28:36.068][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  insertJSESSIONID : true
+[2016-10-12 17:28:36.074][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  maxBytesStreaming : 131072
+[2016-10-12 17:28:36.075][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  sessionTimeout : 5000
+[2016-10-12 17:28:36.099][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= Notification Server is Started!!!! =========
+[2016-10-12 17:28:36.099][ERROR]io.vertx.core.http.impl.HttpServerImpl - java.net.BindException: Address already in use: bind
+[2016-10-12 17:28:36.099][INFO ]com.hs.gms.srv.nti.verticle.MainVerticle - HttpServerVerticle Deployment id is: 1eb07a18-cfdb-4458-9d71-509286cb854a
+[2016-10-12 17:28:53.238][INFO ]com.hs.gms.srv.nti.NotificatorWithClusterModeStarter - LOAD CONFIG FILE - src/main/resources/conf/config.json
+[2016-10-12 17:28:53.273][INFO ]io.vertx.core.Starter - Starting clustering...
+[2016-10-12 17:28:53.316][INFO ]io.vertx.core.Starter - No cluster-host specified so using address 127.0.0.1
+[2016-10-12 17:28:59.807][INFO ]io.vertx.core.Starter - Succeeded in deploying verticle
+[2016-10-12 17:28:59.823][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= HTTP Server Starting =========
+[2016-10-12 17:28:59.823][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  heartbeatInterval : 25000
+[2016-10-12 17:28:59.824][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  insertJSESSIONID : true
+[2016-10-12 17:28:59.827][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  maxBytesStreaming : 131072
+[2016-10-12 17:28:59.827][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  sessionTimeout : 5000
+[2016-10-12 17:28:59.852][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= Notification Server is Started!!!! =========
+[2016-10-12 17:28:59.852][ERROR]io.vertx.core.http.impl.HttpServerImpl - java.net.BindException: Address already in use: bind
+[2016-10-12 17:28:59.853][INFO ]com.hs.gms.srv.nti.verticle.MainVerticle - HttpServerVerticle Deployment id is: bfc242ef-a87c-4048-9978-8f1b34bb99ea
+[2016-10-12 17:29:27.221][INFO ]com.hs.gms.srv.nti.NotificatorWithClusterModeStarter - LOAD CONFIG FILE - src/main/resources/conf/config.json
+[2016-10-12 17:29:27.252][INFO ]io.vertx.core.Starter - Starting clustering...
+[2016-10-12 17:29:27.296][INFO ]io.vertx.core.Starter - No cluster-host specified so using address 127.0.0.1
+[2016-10-12 17:29:33.846][INFO ]io.vertx.core.Starter - Succeeded in deploying verticle
+[2016-10-12 17:29:33.870][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= HTTP Server Starting =========
+[2016-10-12 17:29:33.871][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  heartbeatInterval : 25000
+[2016-10-12 17:29:33.871][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  insertJSESSIONID : true
+[2016-10-12 17:29:33.877][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  maxBytesStreaming : 131072
+[2016-10-12 17:29:33.877][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  sessionTimeout : 5000
+[2016-10-12 17:29:33.910][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= Notification Server is Started!!!! =========
+[2016-10-12 17:29:33.911][ERROR]io.vertx.core.http.impl.HttpServerImpl - java.net.BindException: Address already in use: bind
+[2016-10-12 17:29:33.911][INFO ]com.hs.gms.srv.nti.verticle.MainVerticle - HttpServerVerticle Deployment id is: b7ccfdcc-1e42-46a8-b852-7edbf26edeea
+[2016-10-12 17:29:52.813][INFO ]com.hs.gms.srv.nti.NotificatorWithClusterModeStarter - LOAD CONFIG FILE - src/main/resources/conf/config.json
+[2016-10-12 17:29:52.843][INFO ]io.vertx.core.Starter - Starting clustering...
+[2016-10-12 17:29:52.887][INFO ]io.vertx.core.Starter - No cluster-host specified so using address 127.0.0.1
+[2016-10-12 17:29:59.429][INFO ]io.vertx.core.Starter - Succeeded in deploying verticle
+[2016-10-12 17:29:59.448][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= HTTP Server Starting =========
+[2016-10-12 17:29:59.448][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  heartbeatInterval : 25000
+[2016-10-12 17:29:59.448][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  insertJSESSIONID : true
+[2016-10-12 17:29:59.452][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  maxBytesStreaming : 131072
+[2016-10-12 17:29:59.452][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  sessionTimeout : 5000
+[2016-10-12 17:29:59.482][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= Notification Server is Started!!!! =========
+[2016-10-12 17:29:59.483][INFO ]com.hs.gms.srv.nti.verticle.MainVerticle - HttpServerVerticle Deployment id is: 97eb0446-6a8c-4784-9c32-37f7c9216cff
+[2016-10-12 17:30:44.013][INFO ]com.hs.gms.srv.nti.NotificatorWithClusterModeStarter - LOAD CONFIG FILE - src/main/resources/conf/config.json
+[2016-10-12 17:30:44.046][INFO ]io.vertx.core.Starter - Starting clustering...
+[2016-10-12 17:30:44.090][INFO ]io.vertx.core.Starter - No cluster-host specified so using address 127.0.0.1
+[2016-10-12 17:30:50.650][INFO ]io.vertx.core.Starter - Succeeded in deploying verticle
+[2016-10-12 17:30:50.666][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= HTTP Server Starting =========
+[2016-10-12 17:30:50.666][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  heartbeatInterval : 25000
+[2016-10-12 17:30:50.667][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  insertJSESSIONID : true
+[2016-10-12 17:30:50.670][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  maxBytesStreaming : 131072
+[2016-10-12 17:30:50.670][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  sessionTimeout : 5000
+[2016-10-12 17:30:50.695][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= Notification Server is Started!!!! =========
+[2016-10-12 17:30:50.696][INFO ]com.hs.gms.srv.nti.verticle.MainVerticle - HttpServerVerticle Deployment id is: 333f36a9-afbd-4778-b01b-9bc2769e1886
+[2016-10-12 17:35:04.045][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53241|New Socket CONNECTED.
+[2016-10-12 17:35:04.054][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53241|user(myid) JOIN.
+[2016-10-12 17:35:05.880][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53241|user(myid) PUBLISHED message(asd).
+[2016-10-12 17:35:05.887][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53241|user(myid) RECEIVED message(asd).
+[2016-10-12 17:35:16.400][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53241|user(myid) LEAVE.
+[2016-10-12 17:35:16.400][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53241|Socket CLOSED.
+[2016-10-12 17:35:16.499][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53249|New Socket CONNECTED.
+[2016-10-12 17:35:16.500][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53249|user(myid) JOIN.
+[2016-10-12 17:36:01.037][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53249|user(myid) LEAVE.
+[2016-10-12 17:36:01.037][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53249|Socket CLOSED.
+[2016-10-12 17:36:01.133][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53278|New Socket CONNECTED.
+[2016-10-12 17:36:01.134][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53278|user(myid) JOIN.
+[2016-10-12 17:36:04.300][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53278|user(myid) PUBLISHED message(asdasd).
+[2016-10-12 17:36:04.313][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53278|user(myid) RECEIVED message(asdasd).
+[2016-10-12 17:36:32.474][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53278|user(myid) LEAVE.
+[2016-10-12 17:36:32.475][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53278|Socket CLOSED.
+[2016-10-12 17:36:32.573][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53295|New Socket CONNECTED.
+[2016-10-12 17:36:32.574][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53295|user(myid) JOIN.
+[2016-10-12 17:38:03.872][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53295|user(myid) LEAVE.
+[2016-10-12 17:38:03.873][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53295|Socket CLOSED.
+[2016-10-12 17:38:03.951][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53336|New Socket CONNECTED.
+[2016-10-12 17:38:03.953][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53336|user(myid) JOIN.
+[2016-10-12 17:40:34.289][INFO ]com.hs.gms.srv.nti.NotificatorWithClusterModeStarter - LOAD CONFIG FILE - src/main/resources/conf/config.json
+[2016-10-12 17:40:34.322][INFO ]io.vertx.core.Starter - Starting clustering...
+[2016-10-12 17:40:34.364][INFO ]io.vertx.core.Starter - No cluster-host specified so using address 127.0.0.1
+[2016-10-12 17:40:38.820][INFO ]io.vertx.core.Starter - Succeeded in deploying verticle
+[2016-10-12 17:40:38.835][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= HTTP Server Starting =========
+[2016-10-12 17:40:38.835][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  heartbeatInterval : 25000
+[2016-10-12 17:40:38.835][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  insertJSESSIONID : true
+[2016-10-12 17:40:38.838][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  maxBytesStreaming : 131072
+[2016-10-12 17:40:38.838][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  sessionTimeout : 5000
+[2016-10-12 17:40:38.874][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= Notification Server is Started!!!! =========
+[2016-10-12 17:40:38.876][INFO ]com.hs.gms.srv.nti.verticle.MainVerticle - HttpServerVerticle Deployment id is: 2fa43497-6012-47b2-8769-b7ded532917e
+[2016-10-12 17:40:44.839][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53451|New Socket CONNECTED.
+[2016-10-12 17:40:44.846][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53451|user(myid) JOIN.
+[2016-10-12 17:40:46.671][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53451|user(myid) LEAVE.
+[2016-10-12 17:40:46.673][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53451|Socket CLOSED.
+[2016-10-12 17:40:46.733][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53452|New Socket CONNECTED.
+[2016-10-12 17:40:46.734][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53452|user(myid) JOIN.
+[2016-10-12 17:40:51.758][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53452|user(myid) PUBLISHED message(asdasd.).
+[2016-10-12 17:40:51.777][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53452|user(myid) RECEIVED message(asdasd.).
+[2016-10-12 17:40:52.865][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53452|user(myid) PUBLISHED message(.).
+[2016-10-12 17:40:52.866][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53452|user(myid) RECEIVED message(.).
+[2016-10-12 17:41:48.776][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53452|user(myid) LEAVE.
+[2016-10-12 17:41:48.776][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53452|Socket CLOSED.
+[2016-10-12 17:41:48.853][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53474|New Socket CONNECTED.
+[2016-10-12 17:41:48.855][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53474|user(myid) JOIN.
+[2016-10-12 17:49:25.575][INFO ]com.hs.gms.srv.nti.NotificatorWithClusterModeStarter - LOAD CONFIG FILE - src/main/resources/conf/config.json
+[2016-10-12 17:49:25.621][INFO ]io.vertx.core.Starter - Starting clustering...
+[2016-10-12 17:49:25.665][INFO ]io.vertx.core.Starter - No cluster-host specified so using address 127.0.0.1
+[2016-10-12 17:49:32.968][INFO ]io.vertx.core.Starter - Succeeded in deploying verticle
+[2016-10-12 17:49:32.983][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= HTTP Server Starting =========
+[2016-10-12 17:49:32.983][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  heartbeatInterval : 25000
+[2016-10-12 17:49:32.983][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  insertJSESSIONID : true
+[2016-10-12 17:49:32.986][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  maxBytesStreaming : 131072
+[2016-10-12 17:49:32.986][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  sessionTimeout : 5000
+[2016-10-12 17:49:33.006][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= Notification Server is Started!!!! =========
+[2016-10-12 17:49:33.007][INFO ]com.hs.gms.srv.nti.verticle.MainVerticle - HttpServerVerticle Deployment id is: 6df57378-0364-44a4-a54d-df08c77c3783
+[2016-10-12 17:50:56.941][INFO ]com.hs.gms.srv.nti.NotificatorWithClusterModeStarter - LOAD CONFIG FILE - src/main/resources/conf/config.json
+[2016-10-12 17:50:56.987][INFO ]io.vertx.core.Starter - Starting clustering...
+[2016-10-12 17:50:57.028][INFO ]io.vertx.core.Starter - No cluster-host specified so using address 127.0.0.1
+[2016-10-12 17:51:01.875][INFO ]io.vertx.core.Starter - Succeeded in deploying verticle
+[2016-10-12 17:51:01.890][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= HTTP Server Starting =========
+[2016-10-12 17:51:01.890][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  heartbeatInterval : 25000
+[2016-10-12 17:51:01.890][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  insertJSESSIONID : true
+[2016-10-12 17:51:01.893][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  maxBytesStreaming : 131072
+[2016-10-12 17:51:01.893][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  sessionTimeout : 5000
+[2016-10-12 17:51:01.913][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= Notification Server is Started!!!! =========
+[2016-10-12 17:51:01.914][INFO ]com.hs.gms.srv.nti.verticle.MainVerticle - HttpServerVerticle Deployment id is: b8511b36-9cf6-4ed6-be69-7bc9b467b1d9
+[2016-10-12 17:51:12.716][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53689|New Socket CONNECTED.
+[2016-10-12 17:51:12.724][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53689|user(myid) JOIN.
+[2016-10-12 17:51:19.821][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53689|user(myid) LEAVE.
+[2016-10-12 17:51:19.822][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53689|Socket CLOSED.
+[2016-10-12 17:51:19.888][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53695|New Socket CONNECTED.
+[2016-10-12 17:51:19.889][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53695|user(myid) JOIN.
+[2016-10-12 17:51:20.785][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53695|user(myid) LEAVE.
+[2016-10-12 17:51:20.785][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53695|Socket CLOSED.
+[2016-10-12 17:51:20.880][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53696|New Socket CONNECTED.
+[2016-10-12 17:51:20.881][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53696|user(myid) JOIN.
+[2016-10-12 17:51:21.201][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53696|user(myid) LEAVE.
+[2016-10-12 17:51:21.201][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53696|Socket CLOSED.
+[2016-10-12 17:51:21.290][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53697|New Socket CONNECTED.
+[2016-10-12 17:51:21.292][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53697|user(myid) JOIN.
+[2016-10-12 17:52:05.402][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53697|user(myid) LEAVE.
+[2016-10-12 17:52:05.404][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53697|Socket CLOSED.
+[2016-10-12 17:52:05.481][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53713|New Socket CONNECTED.
+[2016-10-12 17:52:05.483][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:53713|user(myid) JOIN.

@@ -1,0 +1,188 @@
+[2016-03-07 16:23:13.382][INFO ]io.vertx.core.Starter - Succeeded in deploying verticle
+[2016-03-07 16:23:13.405][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle - ========= HTTP Server Starting =========
+[2016-03-07 16:23:13.405][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle -  heartbeatInterval : 25000
+[2016-03-07 16:23:13.407][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle -  insertJSESSIONID : true
+[2016-03-07 16:23:13.407][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle -  maxBytesStreaming : 131072
+[2016-03-07 16:23:13.407][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle -  sessionTimeout : 5000
+[2016-03-07 16:23:13.533][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle - ========= Notification Server is Started!!!! =========
+[2016-03-07 16:23:13.537][INFO ]com.hs.common.notificator.verticle.MainVerticle - HttpServerVerticle Deployment id is: 126ccbf7-1915-4917-b5d5-81e3d78d8de1
+[2016-03-07 16:23:29.063][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:54552|user(null) JOIN.
+[2016-03-07 16:23:31.022][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:54552|user(null) PUBLISHED message(asd).
+[2016-03-07 16:23:31.025][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:54552|user(null) RECEIVED message(asd).
+[2016-03-07 16:23:52.105][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:54552|user(null) LEAVE.
+[2016-03-07 16:24:39.193][INFO ]io.vertx.core.Starter - Succeeded in deploying verticle
+[2016-03-07 16:24:39.210][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle - ========= HTTP Server Starting =========
+[2016-03-07 16:24:39.211][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle -  heartbeatInterval : 25000
+[2016-03-07 16:24:39.213][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle -  insertJSESSIONID : true
+[2016-03-07 16:24:39.213][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle -  maxBytesStreaming : 131072
+[2016-03-07 16:24:39.213][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle -  sessionTimeout : 5000
+[2016-03-07 16:24:39.342][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle - ========= Notification Server is Started!!!! =========
+[2016-03-07 16:24:39.345][INFO ]com.hs.common.notificator.verticle.MainVerticle - HttpServerVerticle Deployment id is: 0c42684a-6f97-4f90-93ca-03a5fc0f1acc
+[2016-03-07 16:26:06.748][INFO ]io.vertx.core.Starter - Succeeded in deploying verticle
+[2016-03-07 16:26:06.766][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle - ========= HTTP Server Starting =========
+[2016-03-07 16:26:06.766][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle -  heartbeatInterval : 25000
+[2016-03-07 16:26:06.768][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle -  insertJSESSIONID : true
+[2016-03-07 16:26:06.768][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle -  maxBytesStreaming : 131072
+[2016-03-07 16:26:06.768][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle -  sessionTimeout : 5000
+[2016-03-07 16:26:06.891][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle - ========= Notification Server is Started!!!! =========
+[2016-03-07 16:26:06.895][INFO ]com.hs.common.notificator.verticle.MainVerticle - HttpServerVerticle Deployment id is: 7afdbec4-c8f3-4090-b50f-e144a99d28b9
+[2016-03-07 16:26:09.323][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:54641|user(myid) JOIN.
+[2016-03-07 16:26:11.821][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:54641|user(null) PUBLISHED message(asdasd).
+[2016-03-07 16:26:11.824][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:54641|user(null) RECEIVED message(asdasd).
+[2016-03-07 16:26:17.905][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:54641|user(myid) LEAVE.
+[2016-03-07 16:26:18.092][ERROR]io.vertx.core.net.impl.ConnectionBase - java.io.IOException: 현재 연결은 원격 호스트에 의해 강제로 끊겼습니다
+[2016-03-07 16:26:18.093][ERROR]io.vertx.core.net.impl.ConnectionBase - java.io.IOException: 현재 연결은 원격 호스트에 의해 강제로 끊겼습니다
+[2016-03-07 16:37:16.885][DEBUG]io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+[2016-03-07 16:37:16.909][DEBUG]io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+[2016-03-07 16:37:16.910][DEBUG]io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[2016-03-07 16:37:16.913][DEBUG]io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[2016-03-07 16:37:16.914][DEBUG]io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: true
+[2016-03-07 16:37:16.914][DEBUG]io.netty.util.internal.PlatformDependent - Platform: Windows
+[2016-03-07 16:37:16.914][DEBUG]io.netty.util.internal.PlatformDependent - Java version: 8
+[2016-03-07 16:37:16.916][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+[2016-03-07 16:37:16.917][DEBUG]io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+[2016-03-07 16:37:16.917][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+[2016-03-07 16:37:16.918][DEBUG]io.netty.util.internal.PlatformDependent - Javassist: unavailable
+[2016-03-07 16:37:16.918][DEBUG]io.netty.util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[2016-03-07 16:37:16.918][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\dearj\AppData\Local\Temp (java.io.tmpdir)
+[2016-03-07 16:37:16.918][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 32 (sun.arch.data.model)
+[2016-03-07 16:37:16.918][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+[2016-03-07 16:37:17.286][INFO ]io.vertx.core.Starter - Succeeded in deploying verticle
+[2016-03-07 16:37:17.308][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle - ========= HTTP Server Starting =========
+[2016-03-07 16:37:17.309][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle -  heartbeatInterval : 25000
+[2016-03-07 16:37:17.309][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle -  insertJSESSIONID : true
+[2016-03-07 16:37:17.309][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle -  maxBytesStreaming : 131072
+[2016-03-07 16:37:17.309][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle -  sessionTimeout : 5000
+[2016-03-07 16:37:17.369][DEBUG]io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xad634951a14ef803 (took 1 ms)
+[2016-03-07 16:37:17.443][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle - ========= Notification Server is Started!!!! =========
+[2016-03-07 16:37:17.443][INFO ]com.hs.common.notificator.verticle.MainVerticle - HttpServerVerticle Deployment id is: 32ffbad2-b5b7-4c41-9ca8-ab9abc9f9848
+[2016-03-07 16:37:30.400][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:54781|user(myid) JOIN.
+[2016-03-07 16:37:33.790][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:54781|user(null) PUBLISHED message(asdasd).
+[2016-03-07 16:37:33.792][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:54781|user(null) RECEIVED message(asdasd).
+[2016-03-07 16:37:40.451][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:54781|user(myid) LEAVE.
+[2016-03-07 16:38:24.231][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:54813|user(myid) JOIN.
+[2016-03-07 16:38:26.756][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:54813|user(myid) LEAVE.
+[2016-03-07 16:39:06.762][DEBUG]io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+[2016-03-07 16:39:06.785][DEBUG]io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+[2016-03-07 16:39:06.787][DEBUG]io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[2016-03-07 16:39:06.790][DEBUG]io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[2016-03-07 16:39:06.791][DEBUG]io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: true
+[2016-03-07 16:39:06.791][DEBUG]io.netty.util.internal.PlatformDependent - Platform: Windows
+[2016-03-07 16:39:06.791][DEBUG]io.netty.util.internal.PlatformDependent - Java version: 8
+[2016-03-07 16:39:06.794][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+[2016-03-07 16:39:06.794][DEBUG]io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+[2016-03-07 16:39:06.794][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+[2016-03-07 16:39:06.795][DEBUG]io.netty.util.internal.PlatformDependent - Javassist: unavailable
+[2016-03-07 16:39:06.795][DEBUG]io.netty.util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[2016-03-07 16:39:06.795][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\dearj\AppData\Local\Temp (java.io.tmpdir)
+[2016-03-07 16:39:06.795][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 32 (sun.arch.data.model)
+[2016-03-07 16:39:06.795][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+[2016-03-07 16:39:07.137][INFO ]io.vertx.core.Starter - Succeeded in deploying verticle
+[2016-03-07 16:39:07.159][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle - ========= HTTP Server Starting =========
+[2016-03-07 16:39:07.160][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle -  heartbeatInterval : 25000
+[2016-03-07 16:39:07.160][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle -  insertJSESSIONID : true
+[2016-03-07 16:39:07.160][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle -  maxBytesStreaming : 131072
+[2016-03-07 16:39:07.160][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle -  sessionTimeout : 5000
+[2016-03-07 16:39:07.218][DEBUG]io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xa94d1245816e85db (took 1 ms)
+[2016-03-07 16:39:07.289][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle - ========= Notification Server is Started!!!! =========
+[2016-03-07 16:39:07.290][INFO ]com.hs.common.notificator.verticle.MainVerticle - HttpServerVerticle Deployment id is: c69178b2-8afb-4eef-941f-9e0080bee69f
+[2016-03-07 16:39:16.344][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:54884|New Socket CONNECTED.
+[2016-03-07 16:39:16.351][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:54884|user(myid) JOIN.
+[2016-03-07 16:39:19.949][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:54884|user(myid) PUBLISHED message(sadsad).
+[2016-03-07 16:39:19.952][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:54884|user(myid) RECEIVED message(sadsad).
+[2016-03-07 16:39:24.691][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:54884|user(myid) LEAVE.
+[2016-03-07 16:39:24.691][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:54884|Socket CLOSED.
+[2016-03-07 16:50:22.616][DEBUG]io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+[2016-03-07 16:50:22.646][DEBUG]io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+[2016-03-07 16:50:22.647][DEBUG]io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[2016-03-07 16:50:22.651][DEBUG]io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[2016-03-07 16:50:22.651][DEBUG]io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: true
+[2016-03-07 16:50:22.652][DEBUG]io.netty.util.internal.PlatformDependent - Platform: Windows
+[2016-03-07 16:50:22.652][DEBUG]io.netty.util.internal.PlatformDependent - Java version: 8
+[2016-03-07 16:50:22.655][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+[2016-03-07 16:50:22.655][DEBUG]io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+[2016-03-07 16:50:22.655][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+[2016-03-07 16:50:22.656][DEBUG]io.netty.util.internal.PlatformDependent - Javassist: unavailable
+[2016-03-07 16:50:22.656][DEBUG]io.netty.util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[2016-03-07 16:50:22.657][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\dearj\AppData\Local\Temp (java.io.tmpdir)
+[2016-03-07 16:50:22.657][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 32 (sun.arch.data.model)
+[2016-03-07 16:50:22.657][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+[2016-03-07 16:50:23.078][INFO ]io.vertx.core.Starter - Succeeded in deploying verticle
+[2016-03-07 16:50:23.103][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle - ========= HTTP Server Starting =========
+[2016-03-07 16:50:23.103][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle -  heartbeatInterval : 25000
+[2016-03-07 16:50:23.103][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle -  insertJSESSIONID : true
+[2016-03-07 16:50:23.103][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle -  maxBytesStreaming : 131072
+[2016-03-07 16:50:23.103][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle -  sessionTimeout : 5000
+[2016-03-07 16:50:23.161][DEBUG]io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x98ac8404cd41e175 (took 1 ms)
+[2016-03-07 16:50:23.231][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle - ========= Notification Server is Started!!!! =========
+[2016-03-07 16:50:23.232][INFO ]com.hs.common.notificator.verticle.MainVerticle - HttpServerVerticle Deployment id is: 15618f19-8119-4cd8-81de-9f1b40e2095b
+[2016-03-07 16:50:51.851][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:59560|user(myid) JOIN.
+[2016-03-07 16:50:53.873][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:59560|user(null) PUBLISHED message(asdsad).
+[2016-03-07 16:50:53.877][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:59560|user(null) RECEIVED message(asdsad).
+[2016-03-07 16:50:56.424][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:59560|user(myid) LEAVE.
+[2016-03-07 16:50:56.591][ERROR]io.vertx.core.net.impl.ConnectionBase - java.io.IOException: 현재 연결은 원격 호스트에 의해 강제로 끊겼습니다
+[2016-03-07 16:51:22.544][DEBUG]io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+[2016-03-07 16:51:22.567][DEBUG]io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+[2016-03-07 16:51:22.568][DEBUG]io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[2016-03-07 16:51:22.572][DEBUG]io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[2016-03-07 16:51:22.572][DEBUG]io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: true
+[2016-03-07 16:51:22.572][DEBUG]io.netty.util.internal.PlatformDependent - Platform: Windows
+[2016-03-07 16:51:22.572][DEBUG]io.netty.util.internal.PlatformDependent - Java version: 8
+[2016-03-07 16:51:22.575][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.noUnsafe: true
+[2016-03-07 16:51:22.575][DEBUG]io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: unavailable (io.netty.noUnsafe)
+[2016-03-07 16:51:22.575][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+[2016-03-07 16:51:22.576][DEBUG]io.netty.util.internal.PlatformDependent - Javassist: unavailable
+[2016-03-07 16:51:22.576][DEBUG]io.netty.util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[2016-03-07 16:51:22.576][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\dearj\AppData\Local\Temp (java.io.tmpdir)
+[2016-03-07 16:51:22.576][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 32 (sun.arch.data.model)
+[2016-03-07 16:51:22.576][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: true
+[2016-03-07 16:51:22.579][INFO ]io.netty.util.internal.PlatformDependent - Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[2016-03-07 16:51:22.914][INFO ]io.vertx.core.Starter - Succeeded in deploying verticle
+[2016-03-07 16:51:22.936][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle - ========= HTTP Server Starting =========
+[2016-03-07 16:51:22.937][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle -  heartbeatInterval : 25000
+[2016-03-07 16:51:22.937][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle -  insertJSESSIONID : true
+[2016-03-07 16:51:22.937][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle -  maxBytesStreaming : 131072
+[2016-03-07 16:51:22.937][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle -  sessionTimeout : 5000
+[2016-03-07 16:51:22.995][DEBUG]io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x9b6af6bf1ca66e49 (took 1 ms)
+[2016-03-07 16:51:23.070][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle - ========= Notification Server is Started!!!! =========
+[2016-03-07 16:51:23.071][INFO ]com.hs.common.notificator.verticle.MainVerticle - HttpServerVerticle Deployment id is: 57b7b282-607c-47aa-bbcd-ffc65ada4b0f
+[2016-03-07 16:51:48.954][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:59627|user(myid) JOIN.
+[2016-03-07 16:51:51.759][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:59627|user(null) PUBLISHED message(asdsad).
+[2016-03-07 16:51:51.762][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:59627|user(null) RECEIVED message(asdsad).
+[2016-03-07 16:51:53.556][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:59627|user(myid) LEAVE.
+[2016-03-07 16:51:53.848][ERROR]io.vertx.core.net.impl.ConnectionBase - java.io.IOException: 현재 연결은 원격 호스트에 의해 강제로 끊겼습니다
+[2016-03-07 17:32:53.220][INFO ]io.netty.util.internal.PlatformDependent - Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[2016-03-07 17:32:53.623][INFO ]io.vertx.core.Starter - Succeeded in deploying verticle
+[2016-03-07 17:32:53.647][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle - ========= HTTP Server Starting =========
+[2016-03-07 17:32:53.650][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle -  heartbeatInterval : 25000
+[2016-03-07 17:32:53.650][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle -  insertJSESSIONID : true
+[2016-03-07 17:32:53.650][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle -  maxBytesStreaming : 131072
+[2016-03-07 17:32:53.651][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle -  sessionTimeout : 5000
+[2016-03-07 17:32:53.774][INFO ]com.hs.common.notificator.verticle.HttpServerVerticle - ========= Notification Server is Started!!!! =========
+[2016-03-07 17:32:53.775][INFO ]com.hs.common.notificator.verticle.MainVerticle - HttpServerVerticle Deployment id is: 5adb6f3d-713c-484d-809d-874b9b741a7a
+[2016-03-07 17:33:25.419][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:59881|New Socket CONNECTED.
+[2016-03-07 17:33:25.426][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:59881|user(myid) JOIN.
+[2016-03-07 17:33:28.291][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:59881|user(myid) PUBLISHED message(asdascsac).
+[2016-03-07 17:33:28.294][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:59881|user(myid) RECEIVED message(asdascsac).
+[2016-03-07 17:33:35.759][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:59899|New Socket CONNECTED.
+[2016-03-07 17:33:35.761][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:59899|user(myid) JOIN.
+[2016-03-07 17:33:37.225][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:59899|user(myid) PUBLISHED message(ascasc).
+[2016-03-07 17:33:37.225][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:59881|user(myid) RECEIVED message(ascasc).
+[2016-03-07 17:33:37.226][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:59899|user(myid) RECEIVED message(ascasc).
+[2016-03-07 17:33:38.336][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:59899|user(myid) PUBLISHED message(xxx).
+[2016-03-07 17:33:38.337][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:59881|user(myid) RECEIVED message(xxx).
+[2016-03-07 17:33:38.338][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:59899|user(myid) RECEIVED message(xxx).
+[2016-03-07 17:33:42.108][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:59899|user(myid) LEAVE.
+[2016-03-07 17:33:42.109][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:59899|Socket CLOSED.
+[2016-03-07 17:33:49.230][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:59932|New Socket CONNECTED.
+[2016-03-07 17:33:49.234][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:59932|user(myid) JOIN.
+[2016-03-07 17:33:53.304][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:59932|user(myid) PUBLISHED message(asdsad).
+[2016-03-07 17:33:53.305][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:59881|user(myid) RECEIVED message(asdsad).
+[2016-03-07 17:33:53.305][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:59932|user(myid) RECEIVED message(asdsad).
+[2016-03-07 17:33:54.424][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:59932|user(myid) PUBLISHED message(xxx).
+[2016-03-07 17:33:54.424][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:59881|user(myid) RECEIVED message(xxx).
+[2016-03-07 17:33:54.425][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:59932|user(myid) RECEIVED message(xxx).
+[2016-03-07 17:33:56.643][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:59932|user(myid) LEAVE.
+[2016-03-07 17:33:56.643][INFO ]com.hs.common.notificator.handler.SockJSEventHandler - 127.0.0.1:59932|Socket CLOSED.
+[2016-03-07 17:33:57.011][ERROR]io.vertx.core.net.impl.ConnectionBase - java.io.IOException: 현재 연결은 원격 호스트에 의해 강제로 끊겼습니다
+[2016-03-07 17:33:57.011][ERROR]io.vertx.core.net.impl.ConnectionBase - java.io.IOException: 현재 연결은 원격 호스트에 의해 강제로 끊겼습니다

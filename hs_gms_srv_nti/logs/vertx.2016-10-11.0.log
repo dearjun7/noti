@@ -1,0 +1,1468 @@
+[2016-10-11 15:26:59.178][INFO ]com.hs.gms.srv.nti.NotificatorNonClusterModeStarter - LOAD CONFIG FILE - src/main/resources/conf/config.json
+[2016-10-11 15:26:59.610][INFO ]com.hs.gms.srv.nti.verticle.MainVerticle - ========= Server Instance Starting =========
+[2016-10-11 15:26:59.613][INFO ]com.hs.gms.srv.nti.verticle.MainVerticle -  instance.number : 1
+[2016-10-11 15:26:59.615][INFO ]io.vertx.core.Starter - Succeeded in deploying verticle
+[2016-10-11 15:26:59.640][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= HTTP Server Starting =========
+[2016-10-11 15:26:59.640][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  heartbeatInterval : 25000
+[2016-10-11 15:26:59.640][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  insertJSESSIONID : true
+[2016-10-11 15:26:59.640][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  maxBytesStreaming : 131072
+[2016-10-11 15:26:59.643][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  sessionTimeout : 5000
+[2016-10-11 15:26:59.777][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= Notification Server is Started!!!! =========
+[2016-10-11 15:26:59.778][INFO ]com.hs.gms.srv.nti.verticle.MainVerticle - HttpServerVerticle Deployment id is: b25d783c-5395-405b-983e-f1ab3047fe51
+[2016-10-11 15:27:02.112][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:49688|New Socket CONNECTED.
+[2016-10-11 15:27:12.115][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:49688|Socket CLOSED.
+[2016-10-11 15:27:16.671][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:49697|New Socket CONNECTED.
+[2016-10-11 15:27:26.672][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:49697|Socket CLOSED.
+[2016-10-11 15:28:14.868][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:49721|New Socket CONNECTED.
+[2016-10-11 15:28:15.604][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:49721|Socket CLOSED.
+[2016-10-11 15:28:15.688][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:49727|New Socket CONNECTED.
+[2016-10-11 15:28:16.093][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:49727|Socket CLOSED.
+[2016-10-11 15:28:16.190][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:49733|New Socket CONNECTED.
+[2016-10-11 15:28:16.404][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:49733|Socket CLOSED.
+[2016-10-11 15:28:16.491][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:49739|New Socket CONNECTED.
+[2016-10-11 15:28:16.668][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:49739|Socket CLOSED.
+[2016-10-11 15:28:16.752][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:49745|New Socket CONNECTED.
+[2016-10-11 15:28:17.170][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:49745|Socket CLOSED.
+[2016-10-11 15:28:18.130][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:49883|New Socket CONNECTED.
+[2016-10-11 15:28:19.092][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:49883|Socket CLOSED.
+[2016-10-11 15:28:19.191][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:49889|New Socket CONNECTED.
+[2016-10-11 15:28:19.612][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:49889|Socket CLOSED.
+[2016-10-11 15:28:19.704][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:49895|New Socket CONNECTED.
+[2016-10-11 15:28:19.917][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:49895|Socket CLOSED.
+[2016-10-11 15:28:20.004][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:49901|New Socket CONNECTED.
+[2016-10-11 15:28:20.163][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:49901|Socket CLOSED.
+[2016-10-11 15:28:20.254][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:49907|New Socket CONNECTED.
+[2016-10-11 15:28:20.381][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:49907|Socket CLOSED.
+[2016-10-11 15:28:20.466][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:49913|New Socket CONNECTED.
+[2016-10-11 15:28:20.588][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:49913|Socket CLOSED.
+[2016-10-11 15:28:20.680][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:49919|New Socket CONNECTED.
+[2016-10-11 15:28:20.802][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:49919|Socket CLOSED.
+[2016-10-11 15:28:20.904][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:49925|New Socket CONNECTED.
+[2016-10-11 15:28:21.013][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:49925|Socket CLOSED.
+[2016-10-11 15:28:21.101][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:49931|New Socket CONNECTED.
+[2016-10-11 15:28:21.261][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:49931|Socket CLOSED.
+[2016-10-11 15:28:21.353][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:49938|New Socket CONNECTED.
+[2016-10-11 15:28:21.508][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:49938|Socket CLOSED.
+[2016-10-11 15:28:21.613][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:49944|New Socket CONNECTED.
+[2016-10-11 15:28:21.813][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:49944|Socket CLOSED.
+[2016-10-11 15:28:21.910][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:49950|New Socket CONNECTED.
+[2016-10-11 15:28:22.197][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:49950|Socket CLOSED.
+[2016-10-11 15:28:22.316][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:49956|New Socket CONNECTED.
+[2016-10-11 15:28:22.429][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:49956|Socket CLOSED.
+[2016-10-11 15:28:22.519][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:49962|New Socket CONNECTED.
+[2016-10-11 15:28:22.619][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:49962|Socket CLOSED.
+[2016-10-11 15:28:22.708][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:49968|New Socket CONNECTED.
+[2016-10-11 15:28:32.710][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:49968|Socket CLOSED.
+[2016-10-11 15:29:27.079][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50008|New Socket CONNECTED.
+[2016-10-11 15:29:29.480][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50008|Socket CLOSED.
+[2016-10-11 15:29:29.580][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50014|New Socket CONNECTED.
+[2016-10-11 15:29:30.820][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50014|Socket CLOSED.
+[2016-10-11 15:29:30.908][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50020|New Socket CONNECTED.
+[2016-10-11 15:29:31.315][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50020|Socket CLOSED.
+[2016-10-11 15:29:31.405][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50026|New Socket CONNECTED.
+[2016-10-11 15:29:31.762][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50026|Socket CLOSED.
+[2016-10-11 15:29:31.896][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50032|New Socket CONNECTED.
+[2016-10-11 15:29:32.724][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50032|Socket CLOSED.
+[2016-10-11 15:29:32.845][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50038|New Socket CONNECTED.
+[2016-10-11 15:29:33.724][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50038|Socket CLOSED.
+[2016-10-11 15:29:33.818][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50044|New Socket CONNECTED.
+[2016-10-11 15:29:34.289][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50044|Socket CLOSED.
+[2016-10-11 15:29:34.384][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50050|New Socket CONNECTED.
+[2016-10-11 15:29:34.874][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50050|Socket CLOSED.
+[2016-10-11 15:29:34.982][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50056|New Socket CONNECTED.
+[2016-10-11 15:29:35.370][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50056|Socket CLOSED.
+[2016-10-11 15:29:35.480][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50062|New Socket CONNECTED.
+[2016-10-11 15:29:36.011][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50062|Socket CLOSED.
+[2016-10-11 15:29:36.110][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50070|New Socket CONNECTED.
+[2016-10-11 15:29:46.111][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50070|Socket CLOSED.
+[2016-10-11 15:29:52.437][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50089|New Socket CONNECTED.
+[2016-10-11 15:30:02.437][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50089|Socket CLOSED.
+[2016-10-11 15:32:46.149][INFO ]com.hs.gms.srv.nti.NotificatorNonClusterModeStarter - LOAD CONFIG FILE - src/main/resources/conf/config.json
+[2016-10-11 15:32:46.549][INFO ]io.vertx.core.Starter - Succeeded in deploying verticle
+[2016-10-11 15:32:46.568][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= HTTP Server Starting =========
+[2016-10-11 15:32:46.572][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  heartbeatInterval : 25000
+[2016-10-11 15:32:46.572][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  insertJSESSIONID : true
+[2016-10-11 15:32:46.572][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  maxBytesStreaming : 131072
+[2016-10-11 15:32:46.572][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  sessionTimeout : 5000
+[2016-10-11 15:32:46.709][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= Notification Server is Started!!!! =========
+[2016-10-11 15:32:46.709][INFO ]com.hs.gms.srv.nti.verticle.MainVerticle - HttpServerVerticle Deployment id is: 6fa3d47f-766a-4102-a7c6-cb39e5790071
+[2016-10-11 15:32:46.710][ERROR]io.vertx.core.http.impl.HttpServerImpl - java.net.BindException: Address already in use: bind
+[2016-10-11 15:32:58.993][INFO ]com.hs.gms.srv.nti.NotificatorNonClusterModeStarter - LOAD CONFIG FILE - src/main/resources/conf/config.json
+[2016-10-11 15:32:59.381][INFO ]io.vertx.core.Starter - Succeeded in deploying verticle
+[2016-10-11 15:32:59.402][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= HTTP Server Starting =========
+[2016-10-11 15:32:59.406][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  heartbeatInterval : 25000
+[2016-10-11 15:32:59.406][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  insertJSESSIONID : true
+[2016-10-11 15:32:59.406][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  maxBytesStreaming : 131072
+[2016-10-11 15:32:59.406][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  sessionTimeout : 5000
+[2016-10-11 15:32:59.539][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= Notification Server is Started!!!! =========
+[2016-10-11 15:32:59.539][INFO ]com.hs.gms.srv.nti.verticle.MainVerticle - HttpServerVerticle Deployment id is: 181caa12-1981-46e1-a29d-2796210f003e
+[2016-10-11 15:34:04.386][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50241|New Socket CONNECTED.
+[2016-10-11 15:34:14.390][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50241|Socket CLOSED.
+[2016-10-11 15:34:48.106][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50260|New Socket CONNECTED.
+[2016-10-11 15:34:49.371][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50260|Socket CLOSED.
+[2016-10-11 15:34:49.478][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50266|New Socket CONNECTED.
+[2016-10-11 15:34:59.479][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50266|Socket CLOSED.
+[2016-10-11 15:35:48.770][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50282|New Socket CONNECTED.
+[2016-10-11 15:35:49.649][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50282|Socket CLOSED.
+[2016-10-11 15:35:49.759][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50288|New Socket CONNECTED.
+[2016-10-11 15:35:49.984][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50288|Socket CLOSED.
+[2016-10-11 15:35:50.095][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50294|New Socket CONNECTED.
+[2016-10-11 15:36:00.190][INFO ]com.hs.gms.srv.nti.NotificatorNonClusterModeStarter - LOAD CONFIG FILE - src/main/resources/conf/config.json
+[2016-10-11 15:36:00.585][INFO ]io.vertx.core.Starter - Succeeded in deploying verticle
+[2016-10-11 15:36:00.604][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= HTTP Server Starting =========
+[2016-10-11 15:36:00.609][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  heartbeatInterval : 25000
+[2016-10-11 15:36:00.609][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  insertJSESSIONID : true
+[2016-10-11 15:36:00.609][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  maxBytesStreaming : 131072
+[2016-10-11 15:36:00.609][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  sessionTimeout : 5000
+[2016-10-11 15:36:00.750][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= Notification Server is Started!!!! =========
+[2016-10-11 15:36:00.750][INFO ]com.hs.gms.srv.nti.verticle.MainVerticle - HttpServerVerticle Deployment id is: e72ef42f-b44f-4b61-bf17-4a976e067b32
+[2016-10-11 15:36:02.434][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50338|New Socket CONNECTED.
+[2016-10-11 15:36:12.439][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50338|Socket CLOSED.
+[2016-10-11 15:36:32.347][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50350|New Socket CONNECTED.
+[2016-10-11 15:36:33.705][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50350|Socket CLOSED.
+[2016-10-11 15:36:33.805][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50356|New Socket CONNECTED.
+[2016-10-11 15:36:34.332][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50356|Socket CLOSED.
+[2016-10-11 15:36:34.424][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50362|New Socket CONNECTED.
+[2016-10-11 15:36:44.425][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50362|Socket CLOSED.
+[2016-10-11 15:36:56.908][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50376|New Socket CONNECTED.
+[2016-10-11 15:37:06.909][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50376|Socket CLOSED.
+[2016-10-11 15:37:16.947][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50434|New Socket CONNECTED.
+[2016-10-11 15:37:26.948][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50434|Socket CLOSED.
+[2016-10-11 15:37:31.723][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50458|New Socket CONNECTED.
+[2016-10-11 15:37:32.585][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50458|Socket CLOSED.
+[2016-10-11 15:37:32.732][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50471|New Socket CONNECTED.
+[2016-10-11 15:39:53.974][INFO ]com.hs.gms.srv.nti.NotificatorNonClusterModeStarter - LOAD CONFIG FILE - src/main/resources/conf/config.json
+[2016-10-11 15:39:54.376][INFO ]io.vertx.core.Starter - Succeeded in deploying verticle
+[2016-10-11 15:39:54.396][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= HTTP Server Starting =========
+[2016-10-11 15:39:54.401][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  heartbeatInterval : 25000
+[2016-10-11 15:39:54.401][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  insertJSESSIONID : true
+[2016-10-11 15:39:54.401][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  maxBytesStreaming : 131072
+[2016-10-11 15:39:54.401][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  sessionTimeout : 5000
+[2016-10-11 15:39:54.566][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= Notification Server is Started!!!! =========
+[2016-10-11 15:39:54.567][INFO ]com.hs.gms.srv.nti.verticle.MainVerticle - HttpServerVerticle Deployment id is: 968b1517-ccc5-41c3-980c-a65fbaea750c
+[2016-10-11 15:42:48.958][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50616|New Socket CONNECTED.
+[2016-10-11 15:42:58.961][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50616|Socket CLOSED.
+[2016-10-11 15:52:46.118][INFO ]com.hs.gms.srv.nti.NotificatorNonClusterModeStarter - LOAD CONFIG FILE - src/main/resources/conf/config.json
+[2016-10-11 15:52:46.509][INFO ]io.vertx.core.Starter - Succeeded in deploying verticle
+[2016-10-11 15:52:46.529][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= HTTP Server Starting =========
+[2016-10-11 15:52:46.533][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  heartbeatInterval : 25000
+[2016-10-11 15:52:46.533][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  insertJSESSIONID : true
+[2016-10-11 15:52:46.533][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  maxBytesStreaming : 131072
+[2016-10-11 15:52:46.533][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  sessionTimeout : 15000
+[2016-10-11 15:52:46.669][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= Notification Server is Started!!!! =========
+[2016-10-11 15:52:46.669][INFO ]com.hs.gms.srv.nti.verticle.MainVerticle - HttpServerVerticle Deployment id is: 0fb1fed5-ca9e-46b7-a685-b2e57389c3dc
+[2016-10-11 15:52:58.411][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50771|New Socket CONNECTED.
+[2016-10-11 15:53:02.494][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50771|Socket CLOSED.
+[2016-10-11 15:53:02.568][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50780|New Socket CONNECTED.
+[2016-10-11 15:53:12.568][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50780|Socket CLOSED.
+[2016-10-11 15:53:29.927][INFO ]com.hs.gms.srv.nti.NotificatorNonClusterModeStarter - LOAD CONFIG FILE - src/main/resources/conf/config.json
+[2016-10-11 15:53:29.975][DEBUG]io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+[2016-10-11 15:53:29.976][DEBUG]io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[2016-10-11 15:53:29.981][DEBUG]io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+[2016-10-11 15:53:29.993][DEBUG]io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+[2016-10-11 15:53:30.001][DEBUG]io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+[2016-10-11 15:53:30.001][DEBUG]io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[2016-10-11 15:53:30.005][DEBUG]io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[2016-10-11 15:53:30.006][DEBUG]io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: true
+[2016-10-11 15:53:30.006][DEBUG]io.netty.util.internal.PlatformDependent - Platform: Windows
+[2016-10-11 15:53:30.006][DEBUG]io.netty.util.internal.PlatformDependent - Java version: 8
+[2016-10-11 15:53:30.007][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+[2016-10-11 15:53:30.007][DEBUG]io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+[2016-10-11 15:53:30.007][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+[2016-10-11 15:53:30.008][DEBUG]io.netty.util.internal.PlatformDependent - Javassist: unavailable
+[2016-10-11 15:53:30.011][DEBUG]io.netty.util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[2016-10-11 15:53:30.012][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\dearj\AppData\Local\Temp (java.io.tmpdir)
+[2016-10-11 15:53:30.012][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[2016-10-11 15:53:30.012][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+[2016-10-11 15:53:30.026][DEBUG]io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[2016-10-11 15:53:30.026][DEBUG]io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[2016-10-11 15:53:30.341][INFO ]io.vertx.core.Starter - Succeeded in deploying verticle
+[2016-10-11 15:53:30.360][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= HTTP Server Starting =========
+[2016-10-11 15:53:30.361][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  heartbeatInterval : 25000
+[2016-10-11 15:53:30.361][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  insertJSESSIONID : true
+[2016-10-11 15:53:30.361][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  maxBytesStreaming : 131072
+[2016-10-11 15:53:30.361][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  sessionTimeout : 15000
+[2016-10-11 15:53:30.382][DEBUG]io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.bytebuf.checkAccessible: true
+[2016-10-11 15:53:30.401][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
+[2016-10-11 15:53:30.401][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
+[2016-10-11 15:53:30.401][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[2016-10-11 15:53:30.405][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[2016-10-11 15:53:30.405][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[2016-10-11 15:53:30.405][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[2016-10-11 15:53:30.405][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[2016-10-11 15:53:30.405][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[2016-10-11 15:53:30.405][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[2016-10-11 15:53:30.405][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[2016-10-11 15:53:30.424][DEBUG]io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xe6047115b16de756 (took 1 ms)
+[2016-10-11 15:53:30.449][DEBUG]io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: unpooled
+[2016-10-11 15:53:30.449][DEBUG]io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+[2016-10-11 15:53:30.449][DEBUG]io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[2016-10-11 15:53:30.493][DEBUG]io.netty.util.NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[2016-10-11 15:53:30.494][DEBUG]io.netty.util.NetUtil - \proc\sys\net\core\somaxconn: 200 (non-existent)
+[2016-10-11 15:53:30.500][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= Notification Server is Started!!!! =========
+[2016-10-11 15:53:30.500][INFO ]com.hs.gms.srv.nti.verticle.MainVerticle - HttpServerVerticle Deployment id is: a8b04b73-617f-43c1-8243-d37197faed9b
+[2016-10-11 15:53:41.506][DEBUG]io.netty.util.Recycler - -Dio.netty.recycler.maxCapacity.default: 262144
+[2016-10-11 15:53:41.666][DEBUG]io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - [id: 0xd3a8f1cc, /127.0.0.1:50827 => /127.0.0.1:18090] WebSocket version V13 server handshake
+[2016-10-11 15:53:41.670][DEBUG]io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - WebSocket version 13 server handshake key: 9HhfSGkKxmdv1M2NY3xjyA==, response: GSdPLB0kjYAoT94w1fnC9IlfIrU=
+[2016-10-11 15:53:41.684][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 15:53:41.690][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50827|New Socket CONNECTED.
+[2016-10-11 15:53:41.693][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 15:53:41.693][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 15:53:41.695][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 15:53:41.695][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=48
+[2016-10-11 15:53:46.686][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 15:53:46.686][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 15:53:51.686][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 15:53:51.686][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 15:53:51.692][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50827|Socket CLOSED.
+[2016-10-11 15:53:51.692][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=18
+[2016-10-11 15:53:51.693][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=2
+[2016-10-11 15:54:47.250][INFO ]com.hs.gms.srv.nti.NotificatorWithClusterModeStarter - LOAD CONFIG FILE - src/main/resources/conf/config.json
+[2016-10-11 15:54:47.281][INFO ]io.vertx.core.Starter - Starting clustering...
+[2016-10-11 15:54:47.324][INFO ]io.vertx.core.Starter - No cluster-host specified so using address 127.0.0.1
+[2016-10-11 15:54:47.379][DEBUG]io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+[2016-10-11 15:54:47.380][DEBUG]io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[2016-10-11 15:54:47.381][DEBUG]io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+[2016-10-11 15:54:47.393][DEBUG]io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+[2016-10-11 15:54:47.403][DEBUG]io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+[2016-10-11 15:54:47.403][DEBUG]io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[2016-10-11 15:54:47.404][DEBUG]io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[2016-10-11 15:54:47.404][DEBUG]io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: true
+[2016-10-11 15:54:47.404][DEBUG]io.netty.util.internal.PlatformDependent - Platform: Windows
+[2016-10-11 15:54:47.405][DEBUG]io.netty.util.internal.PlatformDependent - Java version: 8
+[2016-10-11 15:54:47.405][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+[2016-10-11 15:54:47.405][DEBUG]io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+[2016-10-11 15:54:47.409][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+[2016-10-11 15:54:47.410][DEBUG]io.netty.util.internal.PlatformDependent - Javassist: unavailable
+[2016-10-11 15:54:47.410][DEBUG]io.netty.util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[2016-10-11 15:54:47.410][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\dearj\AppData\Local\Temp (java.io.tmpdir)
+[2016-10-11 15:54:47.410][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[2016-10-11 15:54:47.410][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+[2016-10-11 15:54:47.426][DEBUG]io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[2016-10-11 15:54:47.427][DEBUG]io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[2016-10-11 15:55:15.114][INFO ]com.hs.gms.srv.nti.NotificatorWithClusterModeStarter - LOAD CONFIG FILE - src/main/resources/conf/config.json
+[2016-10-11 15:55:15.155][INFO ]io.vertx.core.Starter - Starting clustering...
+[2016-10-11 15:55:15.208][INFO ]io.vertx.core.Starter - No cluster-host specified so using address 127.0.0.1
+[2016-10-11 15:55:15.278][DEBUG]io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+[2016-10-11 15:55:15.279][DEBUG]io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[2016-10-11 15:55:15.281][DEBUG]io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+[2016-10-11 15:55:15.295][DEBUG]io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+[2016-10-11 15:55:15.307][DEBUG]io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+[2016-10-11 15:55:15.308][DEBUG]io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[2016-10-11 15:55:15.308][DEBUG]io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[2016-10-11 15:55:15.308][DEBUG]io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: true
+[2016-10-11 15:55:15.308][DEBUG]io.netty.util.internal.PlatformDependent - Platform: Windows
+[2016-10-11 15:55:15.309][DEBUG]io.netty.util.internal.PlatformDependent - Java version: 8
+[2016-10-11 15:55:15.309][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+[2016-10-11 15:55:15.309][DEBUG]io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+[2016-10-11 15:55:15.313][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+[2016-10-11 15:55:15.314][DEBUG]io.netty.util.internal.PlatformDependent - Javassist: unavailable
+[2016-10-11 15:55:15.314][DEBUG]io.netty.util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[2016-10-11 15:55:15.314][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\dearj\AppData\Local\Temp (java.io.tmpdir)
+[2016-10-11 15:55:15.314][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[2016-10-11 15:55:15.314][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+[2016-10-11 15:55:15.331][DEBUG]io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[2016-10-11 15:55:15.332][DEBUG]io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[2016-10-11 15:55:21.663][DEBUG]io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.bytebuf.checkAccessible: true
+[2016-10-11 15:55:21.715][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
+[2016-10-11 15:55:21.715][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
+[2016-10-11 15:55:21.715][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[2016-10-11 15:55:21.715][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[2016-10-11 15:55:21.715][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[2016-10-11 15:55:21.715][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[2016-10-11 15:55:21.716][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[2016-10-11 15:55:21.722][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[2016-10-11 15:55:21.722][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[2016-10-11 15:55:21.722][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[2016-10-11 15:55:21.744][DEBUG]io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x31a9d553b01aae2e (took 2 ms)
+[2016-10-11 15:55:21.777][DEBUG]io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: unpooled
+[2016-10-11 15:55:21.778][DEBUG]io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+[2016-10-11 15:55:21.778][DEBUG]io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[2016-10-11 15:55:21.826][DEBUG]io.netty.util.NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[2016-10-11 15:55:21.827][DEBUG]io.netty.util.NetUtil - \proc\sys\net\core\somaxconn: 200 (non-existent)
+[2016-10-11 15:55:21.908][INFO ]io.vertx.core.Starter - Succeeded in deploying verticle
+[2016-10-11 15:55:21.925][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= HTTP Server Starting =========
+[2016-10-11 15:55:21.925][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  heartbeatInterval : 25000
+[2016-10-11 15:55:21.925][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  insertJSESSIONID : true
+[2016-10-11 15:55:21.925][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  maxBytesStreaming : 131072
+[2016-10-11 15:55:21.925][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  sessionTimeout : 15000
+[2016-10-11 15:55:21.950][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= Notification Server is Started!!!! =========
+[2016-10-11 15:55:21.950][ERROR]io.vertx.core.http.impl.HttpServerImpl - java.net.BindException: Address already in use: bind
+[2016-10-11 15:55:21.955][INFO ]com.hs.gms.srv.nti.verticle.MainVerticle - HttpServerVerticle Deployment id is: ee007b23-c43c-4347-b868-f9a346ffa2b4
+[2016-10-11 15:55:31.920][DEBUG]io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - [id: 0x1f02a195, /127.0.0.1:50928 => /127.0.0.1:18090] WebSocket version V13 server handshake
+[2016-10-11 15:55:31.924][DEBUG]io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - WebSocket version 13 server handshake key: UMVszBraltTqIJ/X2RQzrA==, response: fnk0Vvl2FlKCxVyLQDAbyY73EOY=
+[2016-10-11 15:55:31.925][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 15:55:31.925][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50928|New Socket CONNECTED.
+[2016-10-11 15:55:31.927][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 15:55:31.927][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 15:55:31.927][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 15:55:31.927][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=48
+[2016-10-11 15:55:36.418][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=8
+[2016-10-11 15:55:36.418][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=0
+[2016-10-11 15:55:36.418][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=0
+[2016-10-11 15:55:36.419][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50928|Socket CLOSED.
+[2016-10-11 15:55:36.489][DEBUG]io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - [id: 0xe5cb88f2, /127.0.0.1:50934 => /127.0.0.1:18090] WebSocket version V13 server handshake
+[2016-10-11 15:55:36.489][DEBUG]io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - WebSocket version 13 server handshake key: dn0CkYhPGMvyimR6Gzgfiw==, response: o2gfI06wchbyRR5iIyR1x4fw5KU=
+[2016-10-11 15:55:36.490][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 15:55:36.490][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50934|New Socket CONNECTED.
+[2016-10-11 15:55:36.491][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 15:55:36.494][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 15:55:36.494][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 15:55:36.494][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=48
+[2016-10-11 15:55:39.370][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 15:55:39.370][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=67
+[2016-10-11 15:55:40.833][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 15:55:40.833][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=65
+[2016-10-11 15:55:41.491][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 15:55:41.491][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 15:55:42.113][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 15:55:42.113][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=64
+[2016-10-11 15:55:43.289][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 15:55:43.289][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=65
+[2016-10-11 15:55:44.280][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 15:55:44.280][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=64
+[2016-10-11 15:55:44.904][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 15:55:44.907][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=62
+[2016-10-11 15:55:45.408][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 15:55:45.409][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=62
+[2016-10-11 15:55:45.912][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 15:55:45.912][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=62
+[2016-10-11 15:55:46.400][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 15:55:46.400][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=62
+[2016-10-11 15:55:46.490][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50934|Socket CLOSED.
+[2016-10-11 15:55:46.490][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=18
+[2016-10-11 15:55:46.490][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=2
+[2016-10-11 15:56:18.357][DEBUG]io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - [id: 0x786709f8, /127.0.0.1:50942 => /127.0.0.1:18090] WebSocket version V13 server handshake
+[2016-10-11 15:56:18.357][DEBUG]io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - WebSocket version 13 server handshake key: miOTNjk5e5jqP01wk0D/Pg==, response: RMJx4fHSf1R+ek3IbqyfOS1U3Ws=
+[2016-10-11 15:56:18.358][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 15:56:18.358][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50942|New Socket CONNECTED.
+[2016-10-11 15:56:18.359][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 15:56:18.359][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 15:56:18.363][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 15:56:18.363][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=48
+[2016-10-11 15:56:23.360][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 15:56:23.360][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 15:57:14.365][INFO ]com.hs.gms.srv.nti.NotificatorNonClusterModeStarter - LOAD CONFIG FILE - src/main/resources/conf/config.json
+[2016-10-11 15:57:14.412][DEBUG]io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+[2016-10-11 15:57:14.413][DEBUG]io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[2016-10-11 15:57:14.417][DEBUG]io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+[2016-10-11 15:57:14.429][DEBUG]io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+[2016-10-11 15:57:14.436][DEBUG]io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+[2016-10-11 15:57:14.436][DEBUG]io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[2016-10-11 15:57:14.439][DEBUG]io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[2016-10-11 15:57:14.440][DEBUG]io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: true
+[2016-10-11 15:57:14.440][DEBUG]io.netty.util.internal.PlatformDependent - Platform: Windows
+[2016-10-11 15:57:14.440][DEBUG]io.netty.util.internal.PlatformDependent - Java version: 8
+[2016-10-11 15:57:14.440][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+[2016-10-11 15:57:14.440][DEBUG]io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+[2016-10-11 15:57:14.441][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+[2016-10-11 15:57:14.441][DEBUG]io.netty.util.internal.PlatformDependent - Javassist: unavailable
+[2016-10-11 15:57:14.444][DEBUG]io.netty.util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[2016-10-11 15:57:14.445][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\dearj\AppData\Local\Temp (java.io.tmpdir)
+[2016-10-11 15:57:14.445][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[2016-10-11 15:57:14.445][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+[2016-10-11 15:57:14.459][DEBUG]io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[2016-10-11 15:57:14.460][DEBUG]io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[2016-10-11 15:57:14.782][INFO ]io.vertx.core.Starter - Succeeded in deploying verticle
+[2016-10-11 15:57:14.803][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= HTTP Server Starting =========
+[2016-10-11 15:57:14.803][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= HTTP Server Starting =========
+[2016-10-11 15:57:14.803][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  heartbeatInterval : 25000
+[2016-10-11 15:57:14.803][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  heartbeatInterval : 25000
+[2016-10-11 15:57:14.803][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  insertJSESSIONID : true
+[2016-10-11 15:57:14.803][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  insertJSESSIONID : true
+[2016-10-11 15:57:14.803][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  maxBytesStreaming : 131072
+[2016-10-11 15:57:14.804][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  maxBytesStreaming : 131072
+[2016-10-11 15:57:14.804][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  sessionTimeout : 15000
+[2016-10-11 15:57:14.804][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  sessionTimeout : 15000
+[2016-10-11 15:57:14.833][DEBUG]io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.bytebuf.checkAccessible: true
+[2016-10-11 15:57:14.851][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
+[2016-10-11 15:57:14.851][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
+[2016-10-11 15:57:14.851][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[2016-10-11 15:57:14.851][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[2016-10-11 15:57:14.852][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[2016-10-11 15:57:14.852][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[2016-10-11 15:57:14.852][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[2016-10-11 15:57:14.852][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[2016-10-11 15:57:14.852][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[2016-10-11 15:57:14.852][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[2016-10-11 15:57:14.875][DEBUG]io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xd68f72b382101fc6 (took 2 ms)
+[2016-10-11 15:57:14.907][DEBUG]io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: unpooled
+[2016-10-11 15:57:14.907][DEBUG]io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+[2016-10-11 15:57:14.907][DEBUG]io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[2016-10-11 15:57:14.957][DEBUG]io.netty.util.NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[2016-10-11 15:57:14.958][DEBUG]io.netty.util.NetUtil - \proc\sys\net\core\somaxconn: 200 (non-existent)
+[2016-10-11 15:57:14.965][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= Notification Server is Started!!!! =========
+[2016-10-11 15:57:14.966][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= Notification Server is Started!!!! =========
+[2016-10-11 15:57:14.966][INFO ]com.hs.gms.srv.nti.verticle.MainVerticle - HttpServerVerticle Deployment id is: c66ac814-b9c9-4793-8420-2185dedaf5d1
+[2016-10-11 15:57:18.455][DEBUG]io.netty.util.Recycler - -Dio.netty.recycler.maxCapacity.default: 262144
+[2016-10-11 15:57:18.619][DEBUG]io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - [id: 0xe994a7c8, /127.0.0.1:50987 => /127.0.0.1:18090] WebSocket version V13 server handshake
+[2016-10-11 15:57:18.622][DEBUG]io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - WebSocket version 13 server handshake key: M8bs0dljMuS7pKTA7MOL/w==, response: GobiehusOWwnbm3ccYmpYPO/tn0=
+[2016-10-11 15:57:18.636][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 15:57:18.643][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50987|New Socket CONNECTED.
+[2016-10-11 15:57:18.647][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 15:57:18.647][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 15:57:18.649][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 15:57:18.649][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=48
+[2016-10-11 15:57:22.720][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 15:57:22.720][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=65
+[2016-10-11 15:57:23.638][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 15:57:23.638][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 15:57:28.639][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 15:57:28.639][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 15:57:28.647][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50987|Socket CLOSED.
+[2016-10-11 15:57:28.647][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=18
+[2016-10-11 15:57:28.647][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=2
+[2016-10-11 15:58:02.339][INFO ]com.hs.gms.srv.nti.NotificatorNonClusterModeStarter - LOAD CONFIG FILE - src/main/resources/conf/config.json
+[2016-10-11 15:58:02.394][DEBUG]io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+[2016-10-11 15:58:02.396][DEBUG]io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[2016-10-11 15:58:02.401][DEBUG]io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+[2016-10-11 15:58:02.417][DEBUG]io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+[2016-10-11 15:58:02.425][DEBUG]io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+[2016-10-11 15:58:02.425][DEBUG]io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[2016-10-11 15:58:02.428][DEBUG]io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[2016-10-11 15:58:02.429][DEBUG]io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: true
+[2016-10-11 15:58:02.429][DEBUG]io.netty.util.internal.PlatformDependent - Platform: Windows
+[2016-10-11 15:58:02.430][DEBUG]io.netty.util.internal.PlatformDependent - Java version: 8
+[2016-10-11 15:58:02.430][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+[2016-10-11 15:58:02.430][DEBUG]io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+[2016-10-11 15:58:02.430][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+[2016-10-11 15:58:02.431][DEBUG]io.netty.util.internal.PlatformDependent - Javassist: unavailable
+[2016-10-11 15:58:02.434][DEBUG]io.netty.util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[2016-10-11 15:58:02.435][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\dearj\AppData\Local\Temp (java.io.tmpdir)
+[2016-10-11 15:58:02.435][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[2016-10-11 15:58:02.435][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+[2016-10-11 15:58:02.454][DEBUG]io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[2016-10-11 15:58:02.454][DEBUG]io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[2016-10-11 15:58:02.841][INFO ]io.vertx.core.Starter - Succeeded in deploying verticle
+[2016-10-11 15:58:02.866][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= HTTP Server Starting =========
+[2016-10-11 15:58:02.866][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= HTTP Server Starting =========
+[2016-10-11 15:58:02.866][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  heartbeatInterval : 25000
+[2016-10-11 15:58:02.866][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  heartbeatInterval : 25000
+[2016-10-11 15:58:02.866][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  insertJSESSIONID : true
+[2016-10-11 15:58:02.866][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  insertJSESSIONID : true
+[2016-10-11 15:58:02.866][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  maxBytesStreaming : 131072
+[2016-10-11 15:58:02.866][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  maxBytesStreaming : 131072
+[2016-10-11 15:58:02.866][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  sessionTimeout : 15000
+[2016-10-11 15:58:02.866][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  sessionTimeout : 15000
+[2016-10-11 15:58:02.900][DEBUG]io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.bytebuf.checkAccessible: true
+[2016-10-11 15:58:02.920][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
+[2016-10-11 15:58:02.920][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
+[2016-10-11 15:58:02.920][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[2016-10-11 15:58:02.920][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[2016-10-11 15:58:02.921][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[2016-10-11 15:58:02.921][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[2016-10-11 15:58:02.921][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[2016-10-11 15:58:02.921][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[2016-10-11 15:58:02.921][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[2016-10-11 15:58:02.921][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[2016-10-11 15:58:02.943][DEBUG]io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xd44b2dae3eef1e94 (took 2 ms)
+[2016-10-11 15:58:02.973][DEBUG]io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: unpooled
+[2016-10-11 15:58:02.973][DEBUG]io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+[2016-10-11 15:58:02.974][DEBUG]io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[2016-10-11 15:58:03.022][DEBUG]io.netty.util.NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[2016-10-11 15:58:03.023][DEBUG]io.netty.util.NetUtil - \proc\sys\net\core\somaxconn: 200 (non-existent)
+[2016-10-11 15:58:03.030][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= Notification Server is Started!!!! =========
+[2016-10-11 15:58:03.031][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= Notification Server is Started!!!! =========
+[2016-10-11 15:58:03.032][INFO ]com.hs.gms.srv.nti.verticle.MainVerticle - HttpServerVerticle Deployment id is: 74f8b835-f2b6-490b-821c-da0ade59a1b8
+[2016-10-11 15:58:27.719][DEBUG]io.netty.util.Recycler - -Dio.netty.recycler.maxCapacity.default: 262144
+[2016-10-11 15:58:27.885][DEBUG]io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - [id: 0x06079437, /127.0.0.1:51041 => /127.0.0.1:18090] WebSocket version V13 server handshake
+[2016-10-11 15:58:27.888][DEBUG]io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - WebSocket version 13 server handshake key: mwMFxXXufRrGrmr9d/04Ag==, response: XZIvBvP3KNcLEHaqdZH37xPB0to=
+[2016-10-11 15:58:27.903][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 15:58:32.599][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:51041|New Socket CONNECTED.
+[2016-10-11 15:59:35.387][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 15:59:37.464][WARN ]io.vertx.core.impl.BlockedThreadChecker - Thread Thread[vert.x-eventloop-thread-3,5,main] has been blocked for 2076 ms, time limit is 2000
+[2016-10-11 15:59:38.465][WARN ]io.vertx.core.impl.BlockedThreadChecker - Thread Thread[vert.x-eventloop-thread-3,5,main] has been blocked for 3077 ms, time limit is 2000
+[2016-10-11 15:59:38.507][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:51041|Socket CLOSED.
+[2016-10-11 15:59:39.466][WARN ]io.vertx.core.impl.BlockedThreadChecker - Thread Thread[vert.x-eventloop-thread-3,5,main] has been blocked for 4078 ms, time limit is 2000
+[2016-10-11 15:59:40.472][WARN ]io.vertx.core.impl.BlockedThreadChecker - Thread Thread[vert.x-eventloop-thread-3,5,main] has been blocked for 5078 ms, time limit is 2000
+io.vertx.core.VertxException: Thread blocked
+	at com.hs.gms.srv.nti.handler.SockJSEventHandler.lambda$0(SockJSEventHandler.java:105) ~[classes/:na]
+	at com.hs.gms.srv.nti.handler.SockJSEventHandler$$Lambda$23/506863601.handle(Unknown Source) ~[na:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl.checkCallHook(EventBusBridgeImpl.java:162) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl.handleSocketClosed(EventBusBridgeImpl.java:104) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl.lambda$null$86(EventBusBridgeImpl.java:289) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl$$Lambda$78/235087149.handle(Unknown Source) ~[na:na]
+	at io.vertx.ext.web.handler.sockjs.impl.SockJSSession.close(SockJSSession.java:187) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl.lambda$null$88(EventBusBridgeImpl.java:297) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl$$Lambda$80/601870244.handle(Unknown Source) ~[na:na]
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:738) ~[vertx-core-3.2.0.jar:na]
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:709) ~[vertx-core-3.2.0.jar:na]
+	at io.vertx.core.impl.ContextImpl.lambda$wrapTask$16(ContextImpl.java:335) ~[vertx-core-3.2.0.jar:na]
+	at io.vertx.core.impl.ContextImpl$$Lambda$9/1414845278.run(Unknown Source) ~[na:na]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:358) ~[netty-common-4.0.33.Final.jar:4.0.33.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:357) ~[netty-transport-4.0.33.Final.jar:4.0.33.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:112) ~[netty-common-4.0.33.Final.jar:4.0.33.Final]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_73]
+[2016-10-11 15:59:41.468][WARN ]io.vertx.core.impl.BlockedThreadChecker - Thread Thread[vert.x-eventloop-thread-3,5,main] has been blocked for 6079 ms, time limit is 2000
+io.vertx.core.VertxException: Thread blocked
+	at com.hs.gms.srv.nti.handler.SockJSEventHandler.lambda$0(SockJSEventHandler.java:105) ~[classes/:na]
+	at com.hs.gms.srv.nti.handler.SockJSEventHandler$$Lambda$23/506863601.handle(Unknown Source) ~[na:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl.checkCallHook(EventBusBridgeImpl.java:162) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl.handleSocketClosed(EventBusBridgeImpl.java:104) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl.lambda$null$86(EventBusBridgeImpl.java:289) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl$$Lambda$78/235087149.handle(Unknown Source) ~[na:na]
+	at io.vertx.ext.web.handler.sockjs.impl.SockJSSession.close(SockJSSession.java:187) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl.lambda$null$88(EventBusBridgeImpl.java:297) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl$$Lambda$80/601870244.handle(Unknown Source) ~[na:na]
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:738) ~[vertx-core-3.2.0.jar:na]
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:709) ~[vertx-core-3.2.0.jar:na]
+	at io.vertx.core.impl.ContextImpl.lambda$wrapTask$16(ContextImpl.java:335) ~[vertx-core-3.2.0.jar:na]
+	at io.vertx.core.impl.ContextImpl$$Lambda$9/1414845278.run(Unknown Source) ~[na:na]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:358) ~[netty-common-4.0.33.Final.jar:4.0.33.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:357) ~[netty-transport-4.0.33.Final.jar:4.0.33.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:112) ~[netty-common-4.0.33.Final.jar:4.0.33.Final]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_73]
+[2016-10-11 15:59:42.469][WARN ]io.vertx.core.impl.BlockedThreadChecker - Thread Thread[vert.x-eventloop-thread-3,5,main] has been blocked for 7079 ms, time limit is 2000
+io.vertx.core.VertxException: Thread blocked
+	at com.hs.gms.srv.nti.handler.SockJSEventHandler.lambda$0(SockJSEventHandler.java:105) ~[classes/:na]
+	at com.hs.gms.srv.nti.handler.SockJSEventHandler$$Lambda$23/506863601.handle(Unknown Source) ~[na:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl.checkCallHook(EventBusBridgeImpl.java:162) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl.handleSocketClosed(EventBusBridgeImpl.java:104) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl.lambda$null$86(EventBusBridgeImpl.java:289) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl$$Lambda$78/235087149.handle(Unknown Source) ~[na:na]
+	at io.vertx.ext.web.handler.sockjs.impl.SockJSSession.close(SockJSSession.java:187) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl.lambda$null$88(EventBusBridgeImpl.java:297) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl$$Lambda$80/601870244.handle(Unknown Source) ~[na:na]
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:738) ~[vertx-core-3.2.0.jar:na]
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:709) ~[vertx-core-3.2.0.jar:na]
+	at io.vertx.core.impl.ContextImpl.lambda$wrapTask$16(ContextImpl.java:335) ~[vertx-core-3.2.0.jar:na]
+	at io.vertx.core.impl.ContextImpl$$Lambda$9/1414845278.run(Unknown Source) ~[na:na]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:358) ~[netty-common-4.0.33.Final.jar:4.0.33.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:357) ~[netty-transport-4.0.33.Final.jar:4.0.33.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:112) ~[netty-common-4.0.33.Final.jar:4.0.33.Final]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_73]
+[2016-10-11 15:59:43.470][WARN ]io.vertx.core.impl.BlockedThreadChecker - Thread Thread[vert.x-eventloop-thread-3,5,main] has been blocked for 8080 ms, time limit is 2000
+io.vertx.core.VertxException: Thread blocked
+	at com.hs.gms.srv.nti.handler.SockJSEventHandler.lambda$0(SockJSEventHandler.java:105) ~[classes/:na]
+	at com.hs.gms.srv.nti.handler.SockJSEventHandler$$Lambda$23/506863601.handle(Unknown Source) ~[na:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl.checkCallHook(EventBusBridgeImpl.java:162) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl.handleSocketClosed(EventBusBridgeImpl.java:104) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl.lambda$null$86(EventBusBridgeImpl.java:289) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl$$Lambda$78/235087149.handle(Unknown Source) ~[na:na]
+	at io.vertx.ext.web.handler.sockjs.impl.SockJSSession.close(SockJSSession.java:187) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl.lambda$null$88(EventBusBridgeImpl.java:297) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl$$Lambda$80/601870244.handle(Unknown Source) ~[na:na]
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:738) ~[vertx-core-3.2.0.jar:na]
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:709) ~[vertx-core-3.2.0.jar:na]
+	at io.vertx.core.impl.ContextImpl.lambda$wrapTask$16(ContextImpl.java:335) ~[vertx-core-3.2.0.jar:na]
+	at io.vertx.core.impl.ContextImpl$$Lambda$9/1414845278.run(Unknown Source) ~[na:na]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:358) ~[netty-common-4.0.33.Final.jar:4.0.33.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:357) ~[netty-transport-4.0.33.Final.jar:4.0.33.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:112) ~[netty-common-4.0.33.Final.jar:4.0.33.Final]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_73]
+[2016-10-11 15:59:44.470][WARN ]io.vertx.core.impl.BlockedThreadChecker - Thread Thread[vert.x-eventloop-thread-3,5,main] has been blocked for 9081 ms, time limit is 2000
+io.vertx.core.VertxException: Thread blocked
+	at com.hs.gms.srv.nti.handler.SockJSEventHandler.lambda$0(SockJSEventHandler.java:105) ~[classes/:na]
+	at com.hs.gms.srv.nti.handler.SockJSEventHandler$$Lambda$23/506863601.handle(Unknown Source) ~[na:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl.checkCallHook(EventBusBridgeImpl.java:162) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl.handleSocketClosed(EventBusBridgeImpl.java:104) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl.lambda$null$86(EventBusBridgeImpl.java:289) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl$$Lambda$78/235087149.handle(Unknown Source) ~[na:na]
+	at io.vertx.ext.web.handler.sockjs.impl.SockJSSession.close(SockJSSession.java:187) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl.lambda$null$88(EventBusBridgeImpl.java:297) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl$$Lambda$80/601870244.handle(Unknown Source) ~[na:na]
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:738) ~[vertx-core-3.2.0.jar:na]
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:709) ~[vertx-core-3.2.0.jar:na]
+	at io.vertx.core.impl.ContextImpl.lambda$wrapTask$16(ContextImpl.java:335) ~[vertx-core-3.2.0.jar:na]
+	at io.vertx.core.impl.ContextImpl$$Lambda$9/1414845278.run(Unknown Source) ~[na:na]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:358) ~[netty-common-4.0.33.Final.jar:4.0.33.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:357) ~[netty-transport-4.0.33.Final.jar:4.0.33.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:112) ~[netty-common-4.0.33.Final.jar:4.0.33.Final]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_73]
+[2016-10-11 15:59:45.471][WARN ]io.vertx.core.impl.BlockedThreadChecker - Thread Thread[vert.x-eventloop-thread-3,5,main] has been blocked for 10082 ms, time limit is 2000
+io.vertx.core.VertxException: Thread blocked
+	at com.hs.gms.srv.nti.handler.SockJSEventHandler.lambda$0(SockJSEventHandler.java:105) ~[classes/:na]
+	at com.hs.gms.srv.nti.handler.SockJSEventHandler$$Lambda$23/506863601.handle(Unknown Source) ~[na:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl.checkCallHook(EventBusBridgeImpl.java:162) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl.handleSocketClosed(EventBusBridgeImpl.java:104) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl.lambda$null$86(EventBusBridgeImpl.java:289) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl$$Lambda$78/235087149.handle(Unknown Source) ~[na:na]
+	at io.vertx.ext.web.handler.sockjs.impl.SockJSSession.close(SockJSSession.java:187) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl.lambda$null$88(EventBusBridgeImpl.java:297) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl$$Lambda$80/601870244.handle(Unknown Source) ~[na:na]
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:738) ~[vertx-core-3.2.0.jar:na]
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:709) ~[vertx-core-3.2.0.jar:na]
+	at io.vertx.core.impl.ContextImpl.lambda$wrapTask$16(ContextImpl.java:335) ~[vertx-core-3.2.0.jar:na]
+	at io.vertx.core.impl.ContextImpl$$Lambda$9/1414845278.run(Unknown Source) ~[na:na]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:358) ~[netty-common-4.0.33.Final.jar:4.0.33.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:357) ~[netty-transport-4.0.33.Final.jar:4.0.33.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:112) ~[netty-common-4.0.33.Final.jar:4.0.33.Final]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_73]
+[2016-10-11 15:59:46.472][WARN ]io.vertx.core.impl.BlockedThreadChecker - Thread Thread[vert.x-eventloop-thread-3,5,main] has been blocked for 11082 ms, time limit is 2000
+io.vertx.core.VertxException: Thread blocked
+	at com.hs.gms.srv.nti.handler.SockJSEventHandler.lambda$0(SockJSEventHandler.java:105) ~[classes/:na]
+	at com.hs.gms.srv.nti.handler.SockJSEventHandler$$Lambda$23/506863601.handle(Unknown Source) ~[na:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl.checkCallHook(EventBusBridgeImpl.java:162) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl.handleSocketClosed(EventBusBridgeImpl.java:104) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl.lambda$null$86(EventBusBridgeImpl.java:289) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl$$Lambda$78/235087149.handle(Unknown Source) ~[na:na]
+	at io.vertx.ext.web.handler.sockjs.impl.SockJSSession.close(SockJSSession.java:187) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl.lambda$null$88(EventBusBridgeImpl.java:297) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl$$Lambda$80/601870244.handle(Unknown Source) ~[na:na]
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:738) ~[vertx-core-3.2.0.jar:na]
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:709) ~[vertx-core-3.2.0.jar:na]
+	at io.vertx.core.impl.ContextImpl.lambda$wrapTask$16(ContextImpl.java:335) ~[vertx-core-3.2.0.jar:na]
+	at io.vertx.core.impl.ContextImpl$$Lambda$9/1414845278.run(Unknown Source) ~[na:na]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:358) ~[netty-common-4.0.33.Final.jar:4.0.33.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:357) ~[netty-transport-4.0.33.Final.jar:4.0.33.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:112) ~[netty-common-4.0.33.Final.jar:4.0.33.Final]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_73]
+[2016-10-11 15:59:47.473][WARN ]io.vertx.core.impl.BlockedThreadChecker - Thread Thread[vert.x-eventloop-thread-3,5,main] has been blocked for 12083 ms, time limit is 2000
+io.vertx.core.VertxException: Thread blocked
+	at com.hs.gms.srv.nti.handler.SockJSEventHandler.lambda$0(SockJSEventHandler.java:105) ~[classes/:na]
+	at com.hs.gms.srv.nti.handler.SockJSEventHandler$$Lambda$23/506863601.handle(Unknown Source) ~[na:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl.checkCallHook(EventBusBridgeImpl.java:162) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl.handleSocketClosed(EventBusBridgeImpl.java:104) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl.lambda$null$86(EventBusBridgeImpl.java:289) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl$$Lambda$78/235087149.handle(Unknown Source) ~[na:na]
+	at io.vertx.ext.web.handler.sockjs.impl.SockJSSession.close(SockJSSession.java:187) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl.lambda$null$88(EventBusBridgeImpl.java:297) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl$$Lambda$80/601870244.handle(Unknown Source) ~[na:na]
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:738) ~[vertx-core-3.2.0.jar:na]
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:709) ~[vertx-core-3.2.0.jar:na]
+	at io.vertx.core.impl.ContextImpl.lambda$wrapTask$16(ContextImpl.java:335) ~[vertx-core-3.2.0.jar:na]
+	at io.vertx.core.impl.ContextImpl$$Lambda$9/1414845278.run(Unknown Source) ~[na:na]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:358) ~[netty-common-4.0.33.Final.jar:4.0.33.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:357) ~[netty-transport-4.0.33.Final.jar:4.0.33.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:112) ~[netty-common-4.0.33.Final.jar:4.0.33.Final]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_73]
+[2016-10-11 15:59:48.473][WARN ]io.vertx.core.impl.BlockedThreadChecker - Thread Thread[vert.x-eventloop-thread-3,5,main] has been blocked for 13084 ms, time limit is 2000
+io.vertx.core.VertxException: Thread blocked
+	at com.hs.gms.srv.nti.handler.SockJSEventHandler.lambda$0(SockJSEventHandler.java:105) ~[classes/:na]
+	at com.hs.gms.srv.nti.handler.SockJSEventHandler$$Lambda$23/506863601.handle(Unknown Source) ~[na:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl.checkCallHook(EventBusBridgeImpl.java:162) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl.handleSocketClosed(EventBusBridgeImpl.java:104) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl.lambda$null$86(EventBusBridgeImpl.java:289) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl$$Lambda$78/235087149.handle(Unknown Source) ~[na:na]
+	at io.vertx.ext.web.handler.sockjs.impl.SockJSSession.close(SockJSSession.java:187) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl.lambda$null$88(EventBusBridgeImpl.java:297) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl$$Lambda$80/601870244.handle(Unknown Source) ~[na:na]
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:738) ~[vertx-core-3.2.0.jar:na]
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:709) ~[vertx-core-3.2.0.jar:na]
+	at io.vertx.core.impl.ContextImpl.lambda$wrapTask$16(ContextImpl.java:335) ~[vertx-core-3.2.0.jar:na]
+	at io.vertx.core.impl.ContextImpl$$Lambda$9/1414845278.run(Unknown Source) ~[na:na]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:358) ~[netty-common-4.0.33.Final.jar:4.0.33.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:357) ~[netty-transport-4.0.33.Final.jar:4.0.33.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:112) ~[netty-common-4.0.33.Final.jar:4.0.33.Final]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_73]
+[2016-10-11 15:59:49.474][WARN ]io.vertx.core.impl.BlockedThreadChecker - Thread Thread[vert.x-eventloop-thread-3,5,main] has been blocked for 14085 ms, time limit is 2000
+io.vertx.core.VertxException: Thread blocked
+	at com.hs.gms.srv.nti.handler.SockJSEventHandler.lambda$0(SockJSEventHandler.java:105) ~[classes/:na]
+	at com.hs.gms.srv.nti.handler.SockJSEventHandler$$Lambda$23/506863601.handle(Unknown Source) ~[na:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl.checkCallHook(EventBusBridgeImpl.java:162) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl.handleSocketClosed(EventBusBridgeImpl.java:104) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl.lambda$null$86(EventBusBridgeImpl.java:289) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl$$Lambda$78/235087149.handle(Unknown Source) ~[na:na]
+	at io.vertx.ext.web.handler.sockjs.impl.SockJSSession.close(SockJSSession.java:187) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl.lambda$null$88(EventBusBridgeImpl.java:297) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl$$Lambda$80/601870244.handle(Unknown Source) ~[na:na]
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:738) ~[vertx-core-3.2.0.jar:na]
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:709) ~[vertx-core-3.2.0.jar:na]
+	at io.vertx.core.impl.ContextImpl.lambda$wrapTask$16(ContextImpl.java:335) ~[vertx-core-3.2.0.jar:na]
+	at io.vertx.core.impl.ContextImpl$$Lambda$9/1414845278.run(Unknown Source) ~[na:na]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:358) ~[netty-common-4.0.33.Final.jar:4.0.33.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:357) ~[netty-transport-4.0.33.Final.jar:4.0.33.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:112) ~[netty-common-4.0.33.Final.jar:4.0.33.Final]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_73]
+[2016-10-11 15:59:50.474][WARN ]io.vertx.core.impl.BlockedThreadChecker - Thread Thread[vert.x-eventloop-thread-3,5,main] has been blocked for 15085 ms, time limit is 2000
+io.vertx.core.VertxException: Thread blocked
+	at com.hs.gms.srv.nti.handler.SockJSEventHandler.lambda$0(SockJSEventHandler.java:105) ~[classes/:na]
+	at com.hs.gms.srv.nti.handler.SockJSEventHandler$$Lambda$23/506863601.handle(Unknown Source) ~[na:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl.checkCallHook(EventBusBridgeImpl.java:162) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl.handleSocketClosed(EventBusBridgeImpl.java:104) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl.lambda$null$86(EventBusBridgeImpl.java:289) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl$$Lambda$78/235087149.handle(Unknown Source) ~[na:na]
+	at io.vertx.ext.web.handler.sockjs.impl.SockJSSession.close(SockJSSession.java:187) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl.lambda$null$88(EventBusBridgeImpl.java:297) ~[vertx-web-3.2.0.jar:na]
+	at io.vertx.ext.web.handler.sockjs.impl.EventBusBridgeImpl$$Lambda$80/601870244.handle(Unknown Source) ~[na:na]
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:738) ~[vertx-core-3.2.0.jar:na]
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:709) ~[vertx-core-3.2.0.jar:na]
+	at io.vertx.core.impl.ContextImpl.lambda$wrapTask$16(ContextImpl.java:335) ~[vertx-core-3.2.0.jar:na]
+	at io.vertx.core.impl.ContextImpl$$Lambda$9/1414845278.run(Unknown Source) ~[na:na]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:358) ~[netty-common-4.0.33.Final.jar:4.0.33.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:357) ~[netty-transport-4.0.33.Final.jar:4.0.33.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:112) ~[netty-common-4.0.33.Final.jar:4.0.33.Final]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_73]
+[2016-10-11 15:59:50.810][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=18
+[2016-10-11 15:59:50.813][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=2
+[2016-10-11 15:59:52.720][DEBUG]io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - [id: 0x0b36e69f, /127.0.0.1:51052 => /127.0.0.1:18090] WebSocket version V13 server handshake
+[2016-10-11 15:59:52.721][DEBUG]io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - WebSocket version 13 server handshake key: V/jkihK5J5p1dRY8HRYcYQ==, response: uSQvX5y9wNr1cljqLd4kx2xh2NM=
+[2016-10-11 15:59:52.721][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 15:59:52.722][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:51052|New Socket CONNECTED.
+[2016-10-11 15:59:52.727][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 15:59:52.727][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 15:59:52.729][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 15:59:52.729][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=48
+[2016-10-11 15:59:56.816][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=8
+[2016-10-11 15:59:56.816][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=0
+[2016-10-11 15:59:56.816][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=0
+[2016-10-11 15:59:56.817][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:51052|Socket CLOSED.
+[2016-10-11 15:59:56.886][DEBUG]io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - [id: 0x20089f17, /127.0.0.1:51058 => /127.0.0.1:18090] WebSocket version V13 server handshake
+[2016-10-11 15:59:56.887][DEBUG]io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - WebSocket version 13 server handshake key: L1Yt2RApR81WXdCEyB1Nmw==, response: G27Q3xhNXzlagzjyBWvVqwvdpAI=
+[2016-10-11 15:59:56.887][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 15:59:56.888][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:51058|New Socket CONNECTED.
+[2016-10-11 15:59:56.888][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 15:59:56.888][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 15:59:56.888][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 15:59:56.888][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=48
+[2016-10-11 15:59:57.438][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=8
+[2016-10-11 15:59:57.438][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=0
+[2016-10-11 15:59:57.439][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=0
+[2016-10-11 15:59:57.439][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:51058|Socket CLOSED.
+[2016-10-11 15:59:57.515][DEBUG]io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - [id: 0x450cf811, /127.0.0.1:51064 => /127.0.0.1:18090] WebSocket version V13 server handshake
+[2016-10-11 15:59:57.516][DEBUG]io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - WebSocket version 13 server handshake key: 04y+glXnRELPGSfDqNzn4w==, response: 7db5aWf3bYoQlidOG1OPWnnkPqk=
+[2016-10-11 15:59:57.517][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 15:59:57.517][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:51064|New Socket CONNECTED.
+[2016-10-11 15:59:57.518][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 15:59:57.518][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 15:59:57.518][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 15:59:57.518][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=48
+[2016-10-11 15:59:57.942][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=8
+[2016-10-11 15:59:57.942][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=0
+[2016-10-11 15:59:57.943][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=0
+[2016-10-11 15:59:57.943][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:51064|Socket CLOSED.
+[2016-10-11 15:59:58.011][DEBUG]io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - [id: 0x717954e7, /127.0.0.1:51070 => /127.0.0.1:18090] WebSocket version V13 server handshake
+[2016-10-11 15:59:58.012][DEBUG]io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - WebSocket version 13 server handshake key: hDOZIZDnIYfopDlIbWN4WA==, response: NQ2tfQGFEVbFruMGsLyyJkb+DIo=
+[2016-10-11 15:59:58.012][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 15:59:58.012][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:51070|New Socket CONNECTED.
+[2016-10-11 15:59:58.013][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 15:59:58.013][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 15:59:58.013][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 15:59:58.014][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=48
+[2016-10-11 15:59:58.286][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=8
+[2016-10-11 15:59:58.286][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=0
+[2016-10-11 15:59:58.286][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=0
+[2016-10-11 15:59:58.287][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:51070|Socket CLOSED.
+[2016-10-11 15:59:58.355][DEBUG]io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - [id: 0x3dd476c7, /127.0.0.1:51076 => /127.0.0.1:18090] WebSocket version V13 server handshake
+[2016-10-11 15:59:58.355][DEBUG]io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - WebSocket version 13 server handshake key: 8wKgQTXJrDdk5TOvyjUZHg==, response: FmqVbgCXC2VBMZjvctNPYjOMnYc=
+[2016-10-11 15:59:58.356][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 15:59:58.356][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:51076|New Socket CONNECTED.
+[2016-10-11 15:59:58.361][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 15:59:58.361][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 15:59:58.361][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 15:59:58.361][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=48
+[2016-10-11 15:59:58.786][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=8
+[2016-10-11 15:59:58.786][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=0
+[2016-10-11 15:59:58.786][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=0
+[2016-10-11 15:59:58.787][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:51076|Socket CLOSED.
+[2016-10-11 15:59:59.643][DEBUG]io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - [id: 0xa9ab9c30, /127.0.0.1:51158 => /127.0.0.1:18090] WebSocket version V13 server handshake
+[2016-10-11 15:59:59.643][DEBUG]io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - WebSocket version 13 server handshake key: zUrriERlFiL1kOHCDNj6HA==, response: 4pqlcw+jzAEEDQpS/CzMR5p6zhY=
+[2016-10-11 15:59:59.644][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 15:59:59.644][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:51158|New Socket CONNECTED.
+[2016-10-11 15:59:59.646][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 15:59:59.647][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 15:59:59.647][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 15:59:59.647][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=48
+[2016-10-11 16:00:04.647][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:00:04.647][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 16:00:09.646][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:51158|Socket CLOSED.
+[2016-10-11 16:00:09.646][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=18
+[2016-10-11 16:00:09.646][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=2
+[2016-10-11 16:00:55.993][INFO ]com.hs.gms.srv.nti.NotificatorNonClusterModeStarter - LOAD CONFIG FILE - src/main/resources/conf/config.json
+[2016-10-11 16:00:56.040][DEBUG]io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+[2016-10-11 16:00:56.041][DEBUG]io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[2016-10-11 16:00:56.046][DEBUG]io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+[2016-10-11 16:00:56.058][DEBUG]io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+[2016-10-11 16:00:56.065][DEBUG]io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+[2016-10-11 16:00:56.066][DEBUG]io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[2016-10-11 16:00:56.070][DEBUG]io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[2016-10-11 16:00:56.070][DEBUG]io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: true
+[2016-10-11 16:00:56.071][DEBUG]io.netty.util.internal.PlatformDependent - Platform: Windows
+[2016-10-11 16:00:56.071][DEBUG]io.netty.util.internal.PlatformDependent - Java version: 8
+[2016-10-11 16:00:56.071][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+[2016-10-11 16:00:56.071][DEBUG]io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+[2016-10-11 16:00:56.071][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+[2016-10-11 16:00:56.072][DEBUG]io.netty.util.internal.PlatformDependent - Javassist: unavailable
+[2016-10-11 16:00:56.076][DEBUG]io.netty.util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[2016-10-11 16:00:56.076][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\dearj\AppData\Local\Temp (java.io.tmpdir)
+[2016-10-11 16:00:56.076][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[2016-10-11 16:00:56.076][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+[2016-10-11 16:00:56.092][DEBUG]io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[2016-10-11 16:00:56.092][DEBUG]io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[2016-10-11 16:00:56.413][INFO ]io.vertx.core.Starter - Succeeded in deploying verticle
+[2016-10-11 16:00:56.433][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= HTTP Server Starting =========
+[2016-10-11 16:00:56.433][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= HTTP Server Starting =========
+[2016-10-11 16:00:56.434][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  heartbeatInterval : 25000
+[2016-10-11 16:00:56.434][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  heartbeatInterval : 25000
+[2016-10-11 16:00:56.434][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  insertJSESSIONID : true
+[2016-10-11 16:00:56.434][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  insertJSESSIONID : true
+[2016-10-11 16:00:56.434][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  maxBytesStreaming : 131072
+[2016-10-11 16:00:56.434][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  maxBytesStreaming : 131072
+[2016-10-11 16:00:56.434][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  sessionTimeout : 15000
+[2016-10-11 16:00:56.434][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  sessionTimeout : 15000
+[2016-10-11 16:00:56.462][DEBUG]io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.bytebuf.checkAccessible: true
+[2016-10-11 16:00:56.479][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
+[2016-10-11 16:00:56.479][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
+[2016-10-11 16:00:56.479][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[2016-10-11 16:00:56.479][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[2016-10-11 16:00:56.479][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[2016-10-11 16:00:56.479][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[2016-10-11 16:00:56.479][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[2016-10-11 16:00:56.479][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[2016-10-11 16:00:56.479][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[2016-10-11 16:00:56.479][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[2016-10-11 16:00:56.497][DEBUG]io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xa579fa6eeb832159 (took 1 ms)
+[2016-10-11 16:00:56.523][DEBUG]io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: unpooled
+[2016-10-11 16:00:56.524][DEBUG]io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+[2016-10-11 16:00:56.524][DEBUG]io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[2016-10-11 16:00:56.570][DEBUG]io.netty.util.NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[2016-10-11 16:00:56.571][DEBUG]io.netty.util.NetUtil - \proc\sys\net\core\somaxconn: 200 (non-existent)
+[2016-10-11 16:00:56.576][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= Notification Server is Started!!!! =========
+[2016-10-11 16:00:56.577][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= Notification Server is Started!!!! =========
+[2016-10-11 16:00:56.578][INFO ]com.hs.gms.srv.nti.verticle.MainVerticle - HttpServerVerticle Deployment id is: 57fb67b8-486d-4455-8212-ac157b4a1707
+[2016-10-11 16:01:02.384][DEBUG]io.netty.util.Recycler - -Dio.netty.recycler.maxCapacity.default: 262144
+[2016-10-11 16:01:02.561][DEBUG]io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - [id: 0xdb2414af, /10.30.4.184:51207 => /10.30.4.184:18090] WebSocket version V13 server handshake
+[2016-10-11 16:01:02.565][DEBUG]io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - WebSocket version 13 server handshake key: KlpCZMOVorQXxVUgX7ftpg==, response: k/QrioQ4iyHlxj3B7mOBGkD5u1U=
+[2016-10-11 16:01:02.583][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 16:01:02.591][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 10.30.4.184:51207|New Socket CONNECTED.
+[2016-10-11 16:01:02.595][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:01:02.595][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 16:01:02.598][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:01:02.598][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=48
+[2016-10-11 16:01:07.585][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:01:07.586][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 16:01:12.585][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:01:12.585][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 16:01:12.595][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 10.30.4.184:51207|Socket CLOSED.
+[2016-10-11 16:01:12.595][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=18
+[2016-10-11 16:01:12.595][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=2
+[2016-10-11 16:01:16.417][DEBUG]io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - [id: 0x19b41ebd, /10.30.4.184:51217 => /10.30.4.184:18090] WebSocket version V13 server handshake
+[2016-10-11 16:01:16.418][DEBUG]io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - WebSocket version 13 server handshake key: 9woTuarauKAC9gPY4kFGwQ==, response: 6teOt+cqyte/i0H4Axx/u8A0FHk=
+[2016-10-11 16:01:16.418][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 16:01:16.418][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 10.30.4.184:51217|New Socket CONNECTED.
+[2016-10-11 16:01:16.420][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:01:16.420][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 16:01:16.420][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:01:16.420][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=48
+[2016-10-11 16:01:19.966][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:01:19.966][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=67
+[2016-10-11 16:01:21.421][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:01:21.425][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 16:01:26.420][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 10.30.4.184:51217|Socket CLOSED.
+[2016-10-11 16:01:26.420][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=18
+[2016-10-11 16:01:26.420][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=2
+[2016-10-11 16:01:38.777][DEBUG]io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - [id: 0x2d3595a0, /10.30.4.184:51227 => /10.30.4.184:18090] WebSocket version V13 server handshake
+[2016-10-11 16:01:38.777][DEBUG]io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - WebSocket version 13 server handshake key: fMrjnn67zNR+FEnL3wODFg==, response: SRaBpPqR0QHmAn9Q4kZVn8XSeHM=
+[2016-10-11 16:01:38.778][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 16:01:38.778][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 10.30.4.184:51227|New Socket CONNECTED.
+[2016-10-11 16:01:38.779][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:01:38.779][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 16:01:38.779][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:01:38.779][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=48
+[2016-10-11 16:01:40.448][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=8
+[2016-10-11 16:01:40.448][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=0
+[2016-10-11 16:01:40.449][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=0
+[2016-10-11 16:01:40.449][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 10.30.4.184:51227|Socket CLOSED.
+[2016-10-11 16:01:40.531][DEBUG]io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - [id: 0xf70763f4, /10.30.4.184:51233 => /10.30.4.184:18090] WebSocket version V13 server handshake
+[2016-10-11 16:01:40.532][DEBUG]io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - WebSocket version 13 server handshake key: 4kPBF/4Os6yG8fhnkJdevQ==, response: AmhbhbSE8rQKZXxdX4+y7cQbj9A=
+[2016-10-11 16:01:40.532][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 16:01:40.533][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 10.30.4.184:51233|New Socket CONNECTED.
+[2016-10-11 16:01:40.534][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:01:40.534][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 16:01:40.534][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:01:40.535][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=48
+[2016-10-11 16:01:42.838][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:01:42.839][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=65
+[2016-10-11 16:01:45.535][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:01:45.535][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 16:01:50.534][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 10.30.4.184:51233|Socket CLOSED.
+[2016-10-11 16:01:50.534][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=18
+[2016-10-11 16:01:50.534][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=2
+[2016-10-11 16:56:28.605][INFO ]com.hs.gms.srv.nti.NotificatorNonClusterModeStarter - LOAD CONFIG FILE - src/main/resources/conf/config.json
+[2016-10-11 16:56:28.653][DEBUG]io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+[2016-10-11 16:56:28.654][DEBUG]io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[2016-10-11 16:56:28.659][DEBUG]io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+[2016-10-11 16:56:28.672][DEBUG]io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+[2016-10-11 16:56:28.679][DEBUG]io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+[2016-10-11 16:56:28.679][DEBUG]io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[2016-10-11 16:56:28.684][DEBUG]io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[2016-10-11 16:56:28.684][DEBUG]io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: true
+[2016-10-11 16:56:28.684][DEBUG]io.netty.util.internal.PlatformDependent - Platform: Windows
+[2016-10-11 16:56:28.684][DEBUG]io.netty.util.internal.PlatformDependent - Java version: 8
+[2016-10-11 16:56:28.685][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+[2016-10-11 16:56:28.685][DEBUG]io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+[2016-10-11 16:56:28.685][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+[2016-10-11 16:56:28.686][DEBUG]io.netty.util.internal.PlatformDependent - Javassist: unavailable
+[2016-10-11 16:56:28.689][DEBUG]io.netty.util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[2016-10-11 16:56:28.690][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\dearj\AppData\Local\Temp (java.io.tmpdir)
+[2016-10-11 16:56:28.690][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[2016-10-11 16:56:28.690][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+[2016-10-11 16:56:28.704][DEBUG]io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[2016-10-11 16:56:28.704][DEBUG]io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[2016-10-11 16:56:29.010][INFO ]io.vertx.core.Starter - Succeeded in deploying verticle
+[2016-10-11 16:56:29.031][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= HTTP Server Starting =========
+[2016-10-11 16:56:29.031][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  heartbeatInterval : 25000
+[2016-10-11 16:56:29.031][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  insertJSESSIONID : true
+[2016-10-11 16:56:29.031][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  maxBytesStreaming : 131072
+[2016-10-11 16:56:29.032][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  sessionTimeout : 5000
+[2016-10-11 16:56:29.054][DEBUG]io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.bytebuf.checkAccessible: true
+[2016-10-11 16:56:29.074][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
+[2016-10-11 16:56:29.074][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
+[2016-10-11 16:56:29.074][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[2016-10-11 16:56:29.079][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[2016-10-11 16:56:29.079][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[2016-10-11 16:56:29.079][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[2016-10-11 16:56:29.079][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[2016-10-11 16:56:29.079][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[2016-10-11 16:56:29.079][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[2016-10-11 16:56:29.079][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[2016-10-11 16:56:29.099][DEBUG]io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x0f0362e1ee3b6f76 (took 2 ms)
+[2016-10-11 16:56:29.123][DEBUG]io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: unpooled
+[2016-10-11 16:56:29.124][DEBUG]io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+[2016-10-11 16:56:29.124][DEBUG]io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[2016-10-11 16:56:29.166][DEBUG]io.netty.util.NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[2016-10-11 16:56:29.167][DEBUG]io.netty.util.NetUtil - \proc\sys\net\core\somaxconn: 200 (non-existent)
+[2016-10-11 16:56:29.173][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= Notification Server is Started!!!! =========
+[2016-10-11 16:56:29.173][INFO ]com.hs.gms.srv.nti.verticle.MainVerticle - HttpServerVerticle Deployment id is: 591e6d0c-712c-46db-8fa1-9931245005b1
+[2016-10-11 16:56:46.905][DEBUG]io.netty.util.Recycler - -Dio.netty.recycler.maxCapacity.default: 262144
+[2016-10-11 16:56:47.086][DEBUG]io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - [id: 0x24cda14b, /127.0.0.1:50148 => /127.0.0.1:8090] WebSocket version V13 server handshake
+[2016-10-11 16:56:47.090][DEBUG]io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - WebSocket version 13 server handshake key: a4QnbaH07FY1WAa8lq9bnA==, response: zQ9ppKTC2SarTIKGrag5hmU9HWY=
+[2016-10-11 16:56:47.104][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 16:56:47.111][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50148|New Socket CONNECTED.
+[2016-10-11 16:56:47.113][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:56:47.113][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 16:56:47.117][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:56:47.118][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=48
+[2016-10-11 16:56:47.119][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50148|user(myid) JOIN.
+[2016-10-11 16:56:52.107][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:56:52.108][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 16:56:52.298][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:56:52.298][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=67
+[2016-10-11 16:56:52.301][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50148|user(myid) PUBLISHED message(sdfsdf).
+[2016-10-11 16:56:52.306][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50148|user(myid) RECEIVED message(sdfsdf).
+[2016-10-11 16:56:52.313][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=64
+[2016-10-11 16:56:53.809][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:56:53.809][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=64
+[2016-10-11 16:56:53.810][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50148|user(myid) PUBLISHED message(ddd).
+[2016-10-11 16:56:53.810][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50148|user(myid) RECEIVED message(ddd).
+[2016-10-11 16:56:53.810][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=61
+[2016-10-11 16:56:57.107][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:56:57.107][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 16:57:12.107][INFO ]com.hs.gms.srv.nti.NotificatorWithClusterModeStarter - LOAD CONFIG FILE - src/main/resources/conf/config.json
+[2016-10-11 16:57:12.139][INFO ]io.vertx.core.Starter - Starting clustering...
+[2016-10-11 16:57:12.183][INFO ]io.vertx.core.Starter - No cluster-host specified so using address 127.0.0.1
+[2016-10-11 16:57:12.242][DEBUG]io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+[2016-10-11 16:57:12.243][DEBUG]io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[2016-10-11 16:57:12.245][DEBUG]io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+[2016-10-11 16:57:12.257][DEBUG]io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+[2016-10-11 16:57:12.268][DEBUG]io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+[2016-10-11 16:57:12.268][DEBUG]io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[2016-10-11 16:57:12.268][DEBUG]io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[2016-10-11 16:57:12.268][DEBUG]io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: true
+[2016-10-11 16:57:12.269][DEBUG]io.netty.util.internal.PlatformDependent - Platform: Windows
+[2016-10-11 16:57:12.269][DEBUG]io.netty.util.internal.PlatformDependent - Java version: 8
+[2016-10-11 16:57:12.269][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+[2016-10-11 16:57:12.269][DEBUG]io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+[2016-10-11 16:57:12.274][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+[2016-10-11 16:57:12.275][DEBUG]io.netty.util.internal.PlatformDependent - Javassist: unavailable
+[2016-10-11 16:57:12.275][DEBUG]io.netty.util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[2016-10-11 16:57:12.275][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\dearj\AppData\Local\Temp (java.io.tmpdir)
+[2016-10-11 16:57:12.275][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[2016-10-11 16:57:12.275][DEBUG]io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+[2016-10-11 16:57:12.289][DEBUG]io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[2016-10-11 16:57:12.290][DEBUG]io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[2016-10-11 16:57:13.818][DEBUG]io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.bytebuf.checkAccessible: true
+[2016-10-11 16:57:13.858][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
+[2016-10-11 16:57:13.858][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
+[2016-10-11 16:57:13.858][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[2016-10-11 16:57:13.858][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[2016-10-11 16:57:13.858][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[2016-10-11 16:57:13.858][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[2016-10-11 16:57:13.859][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[2016-10-11 16:57:13.865][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[2016-10-11 16:57:13.865][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[2016-10-11 16:57:13.865][DEBUG]io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[2016-10-11 16:57:13.882][DEBUG]io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xd60aa56192427986 (took 2 ms)
+[2016-10-11 16:57:13.910][DEBUG]io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: unpooled
+[2016-10-11 16:57:13.911][DEBUG]io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+[2016-10-11 16:57:13.911][DEBUG]io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[2016-10-11 16:57:13.963][DEBUG]io.netty.util.NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[2016-10-11 16:57:13.965][DEBUG]io.netty.util.NetUtil - \proc\sys\net\core\somaxconn: 200 (non-existent)
+[2016-10-11 16:57:14.045][INFO ]io.vertx.core.Starter - Succeeded in deploying verticle
+[2016-10-11 16:57:14.062][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= HTTP Server Starting =========
+[2016-10-11 16:57:14.063][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  heartbeatInterval : 25000
+[2016-10-11 16:57:14.063][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  insertJSESSIONID : true
+[2016-10-11 16:57:14.063][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  maxBytesStreaming : 131072
+[2016-10-11 16:57:14.063][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  sessionTimeout : 5000
+[2016-10-11 16:57:14.088][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= Notification Server is Started!!!! =========
+[2016-10-11 16:57:14.095][INFO ]com.hs.gms.srv.nti.verticle.MainVerticle - HttpServerVerticle Deployment id is: 1ef6d198-eb78-4175-9b1e-62e515adcdbf
+[2016-10-11 16:57:16.734][DEBUG]io.netty.util.Recycler - -Dio.netty.recycler.maxCapacity.default: 262144
+[2016-10-11 16:57:16.825][DEBUG]io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - [id: 0xb9165c4d, /127.0.0.1:50202 => /127.0.0.1:8090] WebSocket version V13 server handshake
+[2016-10-11 16:57:16.828][DEBUG]io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - WebSocket version 13 server handshake key: m/pD64aXsvYOk6YyfLDFlg==, response: YQOFi4tGMZgKIm7JbQmTNHcWFcs=
+[2016-10-11 16:57:16.840][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 16:57:16.847][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50202|New Socket CONNECTED.
+[2016-10-11 16:57:16.850][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:57:16.850][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 16:57:16.854][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:57:16.854][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=48
+[2016-10-11 16:57:16.855][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50202|user(myid) JOIN.
+[2016-10-11 16:57:19.953][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:57:19.953][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=65
+[2016-10-11 16:57:19.956][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50202|user(myid) PUBLISHED message(ssss).
+[2016-10-11 16:57:19.961][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50202|user(myid) RECEIVED message(ssss).
+[2016-10-11 16:57:19.967][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=62
+[2016-10-11 16:57:21.842][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:57:21.843][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 16:57:27.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:57:27.088][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 16:57:32.086][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:57:32.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 16:57:37.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:57:37.088][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 16:57:41.836][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 16:57:42.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:57:42.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 16:57:47.086][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:57:47.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 16:57:52.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:57:52.088][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 16:57:57.086][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:57:57.095][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 16:58:02.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:58:02.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 16:58:06.837][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 16:58:07.086][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:58:07.086][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 16:58:12.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:58:12.088][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 16:58:17.086][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:58:17.086][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 16:58:22.086][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:58:22.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 16:58:24.736][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:58:24.737][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=64
+[2016-10-11 16:58:24.737][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50202|user(myid) PUBLISHED message(sss).
+[2016-10-11 16:58:24.737][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50202|user(myid) RECEIVED message(sss).
+[2016-10-11 16:58:24.742][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=61
+[2016-10-11 16:58:25.801][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:58:25.801][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=64
+[2016-10-11 16:58:25.801][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50202|user(myid) PUBLISHED message(xxx).
+[2016-10-11 16:58:25.802][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50202|user(myid) RECEIVED message(xxx).
+[2016-10-11 16:58:25.802][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=61
+[2016-10-11 16:58:26.842][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:58:26.842][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 16:58:27.407][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=8
+[2016-10-11 16:58:27.408][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=0
+[2016-10-11 16:58:27.408][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=0
+[2016-10-11 16:58:27.416][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50202|user(myid) LEAVE.
+[2016-10-11 16:58:27.417][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50202|Socket CLOSED.
+[2016-10-11 16:58:27.555][DEBUG]io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - [id: 0x3db02274, /127.0.0.1:50218 => /127.0.0.1:8090] WebSocket version V13 server handshake
+[2016-10-11 16:58:27.556][DEBUG]io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - WebSocket version 13 server handshake key: iAdkeLg/dT0L2tn+dHIJFQ==, response: chIwYmnOhUBCDFWFdQZ9m5KwYOk=
+[2016-10-11 16:58:27.557][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 16:58:27.562][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50218|New Socket CONNECTED.
+[2016-10-11 16:58:27.563][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:58:27.563][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 16:58:27.563][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:58:27.564][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=48
+[2016-10-11 16:58:27.564][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50218|user(myid) JOIN.
+[2016-10-11 16:58:29.536][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:58:29.537][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=64
+[2016-10-11 16:58:29.537][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50218|user(myid) PUBLISHED message(sad).
+[2016-10-11 16:58:29.538][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:50218|user(myid) RECEIVED message(sad).
+[2016-10-11 16:58:29.539][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=61
+[2016-10-11 16:58:32.563][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:58:32.564][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 16:58:37.563][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:58:37.564][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 16:58:42.563][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:58:42.572][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 16:58:47.564][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:58:47.565][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 16:58:52.557][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 16:58:52.563][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:58:52.563][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 16:58:57.563][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:58:57.563][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 16:59:02.563][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:59:02.563][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 16:59:07.564][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:59:07.565][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 16:59:12.563][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:59:12.564][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 16:59:17.557][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 16:59:17.564][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:59:17.573][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 16:59:22.564][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:59:22.564][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 16:59:27.563][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:59:27.563][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 16:59:32.564][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:59:32.564][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 16:59:37.564][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:59:37.564][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 16:59:42.558][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 16:59:42.564][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:59:42.564][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 16:59:47.563][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:59:47.563][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 16:59:52.563][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:59:52.563][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 16:59:57.563][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 16:59:57.563][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:00:02.564][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:00:02.564][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:00:07.557][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 17:00:07.564][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:00:07.564][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:00:12.563][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:00:12.563][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:00:17.564][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:00:17.564][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:00:22.563][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:00:22.564][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:00:27.564][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:00:27.564][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:00:32.557][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 17:00:32.564][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:00:32.564][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:00:38.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:00:38.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:00:43.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:00:43.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:00:48.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:00:48.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:00:53.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:00:53.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:00:57.556][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 17:00:58.088][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:00:58.088][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:01:03.086][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:01:03.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:01:08.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:01:08.097][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:01:13.088][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:01:13.088][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:01:18.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:01:18.088][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:01:22.557][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 17:01:23.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:01:23.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:01:28.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:01:28.088][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:01:33.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:01:33.088][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:01:38.086][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:01:38.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:01:43.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:01:43.088][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:01:47.557][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 17:01:48.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:01:48.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:01:53.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:01:53.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:01:58.088][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:01:58.088][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:02:03.086][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:02:03.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:02:08.086][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:02:08.086][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:02:12.556][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 17:02:13.086][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:02:13.086][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:02:18.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:02:18.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:02:23.088][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:02:23.088][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:02:28.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:02:28.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:02:33.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:02:33.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:02:37.557][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 17:02:38.086][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:02:38.086][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:02:43.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:02:43.088][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:02:48.086][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:02:48.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:02:53.086][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:02:53.086][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:02:58.086][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:02:58.095][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:03:02.556][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 17:03:03.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:03:03.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:03:08.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:03:08.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:03:13.088][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:03:13.089][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:03:18.086][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:03:18.086][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:03:23.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:03:23.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:03:27.557][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 17:03:28.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:03:28.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:03:33.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:03:33.096][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:03:38.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:03:38.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:03:43.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:03:43.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:03:48.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:03:48.087][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:03:51.924][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 17:03:52.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:03:52.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:03:57.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:03:57.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:04:02.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:04:02.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:04:07.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:04:07.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:04:12.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:04:12.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:04:16.923][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 17:04:17.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:04:17.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:04:22.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:04:22.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:04:27.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:04:27.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:04:32.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:04:32.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:04:37.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:04:37.455][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:04:41.923][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 17:04:42.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:04:42.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:04:47.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:04:47.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:04:52.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:04:52.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:04:57.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:04:57.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:05:02.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:05:02.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:05:06.923][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 17:05:07.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:05:07.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:05:12.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:05:12.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:05:17.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:05:17.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:05:22.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:05:22.465][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:05:27.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:05:27.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:05:31.924][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 17:05:32.455][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:05:32.455][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:05:37.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:05:37.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:05:42.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:05:42.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:05:47.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:05:47.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:05:52.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:05:52.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:05:56.924][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 17:05:57.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:05:57.458][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:06:02.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:06:02.455][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:06:07.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:06:07.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:06:12.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:06:12.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:06:17.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:06:17.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:06:21.923][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 17:06:22.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:06:22.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:06:27.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:06:27.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:06:32.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:06:32.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:06:37.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:06:37.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:06:42.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:06:42.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:06:46.924][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 17:06:47.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:06:47.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:06:52.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:06:52.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:06:57.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:06:57.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:07:02.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:07:02.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:07:07.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:07:07.455][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:07:11.923][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 17:07:12.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:07:12.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:07:17.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:07:17.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:07:22.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:07:22.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:07:27.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:07:27.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:07:32.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:07:32.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:07:36.923][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 17:07:37.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:07:37.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:07:42.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:07:42.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:07:47.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:07:47.463][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:07:52.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:07:52.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:07:57.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:07:57.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:08:01.923][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 17:08:02.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:08:02.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:08:07.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:08:07.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:08:12.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:08:12.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:08:17.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:08:17.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:08:22.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:08:22.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:08:26.923][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 17:08:27.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:08:27.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:08:32.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:08:32.455][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:08:37.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:08:37.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:08:42.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:08:42.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:08:47.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:08:47.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:08:51.923][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 17:08:52.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:08:52.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:08:57.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:08:57.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:09:02.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:09:02.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:09:07.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:09:07.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:09:12.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:09:12.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:09:16.923][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 17:09:17.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:09:17.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:09:22.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:09:22.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:09:27.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:09:27.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:09:32.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:09:32.455][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:09:37.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:09:37.458][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:09:41.923][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 17:09:42.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:09:42.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:09:47.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:09:47.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:09:52.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:09:52.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:09:57.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:09:57.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:10:02.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:10:02.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:10:06.924][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 17:10:07.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:10:07.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:10:12.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:10:12.462][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:10:17.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:10:17.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:10:22.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:10:22.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:10:27.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:10:27.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:10:31.924][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 17:10:32.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:10:32.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:10:37.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:10:37.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:10:42.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:10:42.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:10:47.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:10:47.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:10:52.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:10:52.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:10:56.924][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 17:10:57.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:10:57.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:11:02.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:11:02.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:11:07.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:11:07.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:11:12.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:11:12.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:11:17.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:11:17.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:11:21.924][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 17:11:22.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:11:22.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:11:27.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:11:27.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:11:32.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:11:32.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:11:37.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:11:37.455][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:11:42.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:11:42.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:11:46.924][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 17:11:47.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:11:47.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:11:52.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:11:52.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:11:57.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:11:57.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:12:02.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:12:02.457][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:12:07.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:12:07.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:12:11.924][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 17:12:12.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:12:12.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:12:17.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:12:17.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:12:22.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:12:22.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:12:27.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:12:27.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:12:32.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:12:32.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:12:36.924][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 17:12:37.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:12:37.463][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:12:42.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:12:42.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:12:47.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:12:47.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:12:52.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:12:52.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:12:57.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:12:57.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:13:01.924][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=1 length=1
+[2016-10-11 17:13:02.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:13:02.453][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:13:07.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=1
+[2016-10-11 17:13:07.454][DEBUG]io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=23
+[2016-10-11 17:40:33.105][INFO ]com.hs.gms.srv.nti.NotificatorWithClusterModeStarter - LOAD CONFIG FILE - src/main/resources/conf/config.json
+[2016-10-11 17:40:33.137][INFO ]io.vertx.core.Starter - Starting clustering...
+[2016-10-11 17:40:33.181][INFO ]io.vertx.core.Starter - No cluster-host specified so using address 127.0.0.1
+[2016-10-11 17:40:34.691][INFO ]io.vertx.core.Starter - Succeeded in deploying verticle
+[2016-10-11 17:40:34.709][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= HTTP Server Starting =========
+[2016-10-11 17:40:34.709][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  heartbeatInterval : 25000
+[2016-10-11 17:40:34.710][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  insertJSESSIONID : true
+[2016-10-11 17:40:34.716][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  maxBytesStreaming : 131072
+[2016-10-11 17:40:34.716][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  sessionTimeout : 5000
+[2016-10-11 17:40:34.747][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= Notification Server is Started!!!! =========
+[2016-10-11 17:40:34.747][INFO ]com.hs.gms.srv.nti.verticle.MainVerticle - HttpServerVerticle Deployment id is: bd4c2332-010f-4a65-ad0d-1da223e93754
+[2016-10-11 17:40:46.144][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:51259|New Socket CONNECTED.
+[2016-10-11 17:40:46.152][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:51259|user(myid) JOIN.
+[2016-10-11 17:42:08.899][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:51259|user(myid) LEAVE.
+[2016-10-11 17:42:08.901][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:51259|Socket CLOSED.
+[2016-10-11 17:42:09.033][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:51270|New Socket CONNECTED.
+[2016-10-11 17:42:09.034][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:51270|user(myid) JOIN.
+[2016-10-11 18:09:41.958][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:51270|user(myid) LEAVE.
+[2016-10-11 18:09:41.959][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:51270|Socket CLOSED.

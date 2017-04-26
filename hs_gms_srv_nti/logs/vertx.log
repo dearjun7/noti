@@ -1,0 +1,37 @@
+[2016-12-28 16:11:59.378][INFO ]com.hs.gms.srv.nti.NotificatorNonClusterModeStarter - LOAD CONFIG FILE - src/main/resources/conf/config.json
+[2016-12-28 16:11:59.907][INFO ]io.vertx.core.Starter - Succeeded in deploying verticle
+[2016-12-28 16:12:00.194][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= HTTP Server Starting =========
+[2016-12-28 16:12:00.195][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  heartbeatInterval : 25000
+[2016-12-28 16:12:00.199][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  insertJSESSIONID : true
+[2016-12-28 16:12:00.199][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  maxBytesStreaming : 131072
+[2016-12-28 16:12:00.199][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  sessionTimeout : 5000
+[2016-12-28 16:12:00.351][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= Notification Server is Started!!!! =========
+[2016-12-28 16:12:00.355][INFO ]com.hs.gms.srv.nti.verticle.MainVerticle - HttpServerVerticle Deployment id is: 096b1af3-4334-488f-8ef1-178143715f91
+[2016-12-28 16:13:22.875][ERROR]io.vertx.core.net.impl.ConnectionBase - java.io.IOException: 현재 연결은 원격 호스트에 의해 강제로 끊겼습니다
+[2016-12-28 16:13:41.125][INFO ]com.hs.gms.srv.nti.NotificatorNonClusterModeStarter - LOAD CONFIG FILE - src/main/resources/conf/config.json
+[2016-12-28 16:13:41.593][INFO ]io.vertx.core.Starter - Succeeded in deploying verticle
+[2016-12-28 16:13:41.774][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= HTTP Server Starting =========
+[2016-12-28 16:13:41.777][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  heartbeatInterval : 25000
+[2016-12-28 16:13:41.777][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  insertJSESSIONID : true
+[2016-12-28 16:13:41.777][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  maxBytesStreaming : 131072
+[2016-12-28 16:13:41.777][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle -  sessionTimeout : 5000
+[2016-12-28 16:13:41.933][INFO ]com.hs.gms.srv.nti.verticle.HttpServerVerticle - ========= Notification Server is Started!!!! =========
+[2016-12-28 16:13:41.934][INFO ]com.hs.gms.srv.nti.verticle.MainVerticle - HttpServerVerticle Deployment id is: 14c16714-7b59-4442-b7b6-2a1d6d959e12
+[2016-12-28 16:14:16.547][ERROR]io.vertx.core.net.impl.ConnectionBase - java.lang.IllegalArgumentException: invalid version format: ￀￀
+[2016-12-28 16:14:16.550][ERROR]io.vertx.core.net.impl.ConnectionBase - java.lang.IllegalArgumentException: text is empty
+[2016-12-28 16:14:21.881][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:55022|New Socket CONNECTED.
+[2016-12-28 16:14:21.889][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:55022|user(myid) JOIN.
+[2016-12-28 16:14:44.674][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:55022|user(myid) PUBLISHED message(jfjfjhs).
+[2016-12-28 16:14:44.678][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:55022|user(myid) RECEIVED message(jfjfjhs).
+[2016-12-28 16:14:47.127][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:55022|user(myid) PUBLISHED message(nmvmvnv).
+[2016-12-28 16:14:47.128][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:55022|user(myid) RECEIVED message(nmvmvnv).
+[2016-12-28 16:14:49.639][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:55022|user(myid) PUBLISHED message(jdjffff).
+[2016-12-28 16:14:49.640][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:55022|user(myid) RECEIVED message(jdjffff).
+[2016-12-28 16:14:56.685][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:55023|New Socket CONNECTED.
+[2016-12-28 16:14:56.687][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:55023|user(myid) JOIN.
+[2016-12-28 16:14:58.655][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:55023|user(myid) PUBLISHED message(zxzz).
+[2016-12-28 16:14:58.655][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:55022|user(myid) RECEIVED message(zxzz).
+[2016-12-28 16:14:58.656][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:55023|user(myid) RECEIVED message(zxzz).
+[2016-12-28 16:15:01.143][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:55023|user(myid) PUBLISHED message(dddd).
+[2016-12-28 16:15:01.143][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:55022|user(myid) RECEIVED message(dddd).
+[2016-12-28 16:15:01.143][INFO ]com.hs.gms.srv.nti.handler.SockJSEventHandler - 127.0.0.1:55023|user(myid) RECEIVED message(dddd).

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration debug="false" scan="true" scanPeriod="1 minutes">
+	<appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+			<pattern>[%d{yyyy-MM-dd HH:mm:ss.SSS, GMT+9:00}][%-5p]%c - %m%n</pattern>
+		</encoder>
+	</appender>
+
+	<appender name="dailyout" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>./logs/vertx.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+<!--
+			<fileNamePattern>vertx.log.%d{yyyy-MM-dd}</fileNamePattern>
+			<maxHistory>90</maxHistory>
+-->
+			<fileNamePattern>./logs/vertx.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+			<maxHistory>90</maxHistory>
+			<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<maxFileSize>10MB</maxFileSize>
+			</timeBasedFileNamingAndTriggeringPolicy>
+		</rollingPolicy>
+		<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+			<pattern>[%d{yyyy-MM-dd HH:mm:ss.SSS, GMT+9:00}][%-5p]%c - %m%n</pattern>
+		</encoder>
+	</appender>
+
+	<logger name="com.hs.gms.srv.nti" level="debug">
+		<appender-ref ref="dailyout" />
+	</logger>
+
+	<logger name="io.netty" level="info">
+		<appender-ref ref="dailyout" />
+	</logger>
+	
+	<logger name="io.vertx.core" level="info">
+		<appender-ref ref="dailyout" />
+	</logger>
+	
+	<logger name="com.hazelcast" level="info">
+		<appender-ref ref="dailyout" />
+	</logger>
+
+	<root level="DEBUG">
+		<appender-ref ref="console" />
+	</root>
+</configuration>

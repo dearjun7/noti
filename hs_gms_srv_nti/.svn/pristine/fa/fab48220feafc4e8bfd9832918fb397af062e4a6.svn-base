@@ -1,0 +1,26 @@
+package com.hs.gms.srv.nti.handler;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import io.vertx.core.Vertx;
+import io.vertx.core.eventbus.EventBus;
+import io.vertx.core.json.JsonObject;
+
+public class CommonHandler {
+
+    private static final Logger logger = LoggerFactory.getLogger(CommonHandler.class);
+
+    private static JsonObject userListJson = new JsonObject();
+
+    public JsonObject getConncetedUserList(Vertx vertx, String userListAddress) {
+        EventBus eventBus = vertx.eventBus();
+
+        eventBus.consumer(userListAddress, massegeHandler -> {
+            userListJson = new JsonObject(massegeHandler.body().toString());
+            logger.debug("CommonHandler this is entry user data test : " + userListJson);
+        });
+
+        return userListJson;
+    }
+}

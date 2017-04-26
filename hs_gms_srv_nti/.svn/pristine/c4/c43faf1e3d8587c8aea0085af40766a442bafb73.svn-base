@@ -1,0 +1,191 @@
+package com.hs.gms.srv.nti.handler;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import com.hs.gms.srv.nti.model.UserEventVO;
+
+import io.vertx.core.Handler;
+import io.vertx.core.Vertx;
+import io.vertx.core.eventbus.EventBus;
+import io.vertx.core.json.JsonObject;
+import io.vertx.core.logging.Logger;
+import io.vertx.core.logging.LoggerFactory;
+import io.vertx.ext.web.handler.sockjs.BridgeEvent;
+import io.vertx.ext.web.handler.sockjs.BridgeEventType;
+
+public class SockJSEventHandler {
+
+    private static final Logger logger = LoggerFactory.getLogger(SockJSEventHandler.class);
+
+    private static String userListAddress = "";
+
+    public SockJSEventHandler(JsonObject serverConf) {
+        SockJSEventHandler.userListAddress = serverConf.getString("user.list.address");
+    }
+
+    private enum EventStatusType {
+        SOCKET_CREATED {
+
+            @Override
+            public void loggingUserEventStatus(Vertx vertx, UserEventVO userEventVo) {
+                logger.info(userEventVo.getUserIP() + "|New Socket CONNECTED.");
+            }
+        },
+        SOCKET_CLOSED {
+
+            @Override
+            public void loggingUserEventStatus(Vertx vertx, UserEventVO userEventVo) {
+                logger.info(userEventVo.getUserIP() + "|Socket CLOSED.");
+            }
+        },
+        REGISTER {
+
+            @Override
+            public void loggingUserEventStatus(Vertx vertx, UserEventVO userEventVo) {
+                logger.info(userEventVo.getUserIP() + "|user(" + userEventVo.getUserName() + ") JOIN.");
+
+                EventStatusType.addOrRemoveUserName(vertx, true, userEventVo);
+            }
+        },
+        UNREGISTER {
+
+            @Override
+            public void loggingUserEventStatus(Vertx vertx, UserEventVO userEventVo) {
+                logger.info(userEventVo.getUserIP() + "|user(" + userEventVo.getUserName() + ") LEAVE.");
+
+                EventStatusType.addOrRemoveUserName(vertx, false, userEventVo);
+            }
+        },
+        SEND {
+
+            @Override
+            public void loggingUserEventStatus(Vertx vertx, UserEventVO userEventVo) {
+                logger.info(userEventVo.getUserIP() + "|user(" + userEventVo.getUserName() + ") SENDED message(" + userEventVo.getUserMsg()
+                        + ").");
+            }
+        },
+        PUBLISH {
+
+            @Override
+            public void loggingUserEventStatus(Vertx vertx, UserEventVO userEventVo) {
+                logger.info(userEventVo.getUserIP() + "|user(" + userEventVo.getUserName() + ") PUBLISHED message("
+                        + userEventVo.getUserMsg() + ").");
+            }
+        },
+        RECEIVE {
+
+            @Override
+            public void loggingUserEventStatus(Vertx vertx, UserEventVO userEventVo) {
+                logger.info(userEventVo.getUserIP() + "|user(" + userEventVo.getUserName() + ") RECEIVED message("
+                        + userEventVo.getUserMsg() + ").");
+            }
+        };
+
+        public abstract void loggingUserEventStatus(Vertx vertx, UserEventVO userEventVo);
+
+        private static void debugPrintConnectedUsers(List<String> connectedUserList) {
+            if(connectedUserList.size() > 0) {
+                logger.debug("======== Connected User List =======");
+                for(String user : connectedUserList) {
+                    logger.debug(user);
+                }
+                logger.debug("====================================");
+            }
+        }
+
+        /**
+         * user List 추가 혹은 삭제
+         * 
+         * @param addUser
+         *            boolean - user 추가 시 : true, user 삭제 시 : false
+         * @param userEventVo
+         *            UserEventVO
+         */
+        private static void addOrRemoveUserName(Vertx vertx, boolean addUser, UserEventVO userEventVo) {
+            Map<String, Object> usersMap = new HashMap<String, Object>();
+            JsonObject json = null;
+            String userName = userEventVo.getUserName();
+            EventBus eventBus = userEventVo.getEventBus();
+            List<String> connectedUserList = syncUserListData(vertx);
+
+            if(!userName.equals(userListAddress)) {
+                if(addUser == true) {
+                    if(connectedUserList.indexOf(userName) == -1) {
+                        connectedUserList.add(userName);
+                    }
+                } else {
+                    connectedUserList.remove(userName);
+                }
+            }
+
+            usersMap.put("users", connectedUserList);
+            json = new JsonObject(usersMap);
+
+            logger.debug("userListAddress : " + json);
+
+            eventBus.publish(userListAddress, json);
+
+            if(logger.isDebugEnabled()) {
+                EventStatusType.debugPrintConnectedUsers(connectedUserList);
+            }
+        }
+    }
+
+    /**
+     * Cluster 구성 시, 혹은 멀티 프로세싱으로 구동 시에 User List Data의 프로세스 간 동기화를 위한 로직
+     * 
+     * @param address
+     *            String - userList Data용 EventBus address
+     */
+    @SuppressWarnings("unchecked")
+    public static List<String> syncUserListData(Vertx vertx) {
+        CommonHandler commonHandler = new CommonHandler();
+        JsonObject userListJson = commonHandler.getConncetedUserList(vertx, userListAddress);
+        List<String> connectedUserList = new ArrayList<String>();
+
+        connectedUserList = (List<String>) userListJson.getMap().get("users") == null ? connectedUserList
+                : (List<String>) userListJson.getMap().get("users");
+        logger.debug("this is entry user data test : " + connectedUserList);
+
+        return connectedUserList;
+    }
+
+    /**
+     * SockJS Event 처리관련 handler
+     * 
+     * @return Handler<BridgeEvent>
+     * @throws Exception
+     */
+    public Handler<BridgeEvent> getBridgeEventHandler(Vertx vertx) throws Exception {
+        Handler<BridgeEvent> bridgeEvent = bridgeEventHandler -> {
+            BridgeEventType bridgeEventType = bridgeEventHandler.type();
+            UserEventVO userEventVo = new UserEventVO();
+
+            userEventVo.setUserIP(bridgeEventHandler.socket().remoteAddress());
+            userEventVo.setEventBus(vertx.eventBus());
+
+            // User 최초 접속 /접속 종료 시, User 접속/종료 ID 확인
+            if(bridgeEventType != BridgeEventType.SOCKET_CREATED && bridgeEventType != BridgeEventType.SOCKET_CLOSED) {
+                userEventVo.setUserName(bridgeEventHandler.rawMessage().getString("address"));
+            }
+
+            // User 접속 시,User 리스트 갱신
+            if(bridgeEventType == BridgeEventType.REGISTER || bridgeEventType == BridgeEventType.UNREGISTER) {}
+
+            // User 메시지 전송 시, 전송되 Body 확인
+            if(bridgeEventType == BridgeEventType.SEND || bridgeEventType == BridgeEventType.PUBLISH
+                    || bridgeEventType == BridgeEventType.RECEIVE) {
+                userEventVo.setUserMsg(bridgeEventHandler.rawMessage().getValue("body"));
+            }
+
+            EventStatusType.valueOf(bridgeEventType.toString()).loggingUserEventStatus(vertx, userEventVo);
+
+            bridgeEventHandler.complete(true);
+        };
+
+        return bridgeEvent;
+    }
+}
